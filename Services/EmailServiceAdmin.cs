@@ -15,8 +15,8 @@ namespace MSU_BARODA.Services
 
         public EmailServiceAdmin(IConfiguration configuration)
         {
-            _senderEmail = "meetsachdev1245@gmail.com"; // Your email
-            _senderPassword = "ilotmwhrussxpkvo"; // Your App Password
+            _senderEmail = "Your-email@gmail.com"; // Your email
+            _senderPassword = ""; // Your App Password
         }
 
         public async Task SendBulkEmailAsync(List<string> recipientEmails, string subject, string body, string attachmentName, byte[] attachmentData)
