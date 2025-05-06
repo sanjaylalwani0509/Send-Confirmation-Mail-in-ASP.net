@@ -1,0 +1,153 @@
+﻿@{
+    ViewData["Title"] = "Register";
+}
+
+<h2>Register</h2>
+
+@if (ViewBag.Error != null)
+{
+    <div class="alert alert-danger">@ViewBag.Error</div>
+}
+
+<form method="post" asp-action="Register" onsubmit="return validateForm()">
+    <div class="form-group">
+        <label>Full Name</label>
+        <input type="text" id="fullName" name="FullName" class="form-control" required />
+    </div>
+    <div class="form-group">
+        <label>Email</label>
+        <input type="email" id="email" name="Email" class="form-control" required />
+    </div>
+    <div class="form-group">
+        <label>Contact No</label>
+        <input type="text" id="contactNo" name="ContactNo" class="form-control" required />
+    </div>
+
+    <!-- Faculty Dropdown -->
+    <div class="form-group">
+        <label for="faculty">Faculty:</label>
+        <select name="Faculty" id="faculty" class="form-control" required onchange="updateDepartments()">
+            <option value="">-- Select Faculty --</option>
+            <option value="Engineering">Engineering</option>
+            <option value="Science">Science</option>
+            <option value="Arts">Arts</option>
+            <option value="Commerce">Commerce</option>
+        </select>
+    </div>
+
+    <!-- Department Dropdown -->
+    <div class="form-group">
+        <label for="department">Department</label>
+        <select id="department" name="Department" class="form-control" required onchange="updateCourses()">
+            <option value="">-- Select Department --</option>
+        </select>
+    </div>
+
+    <!-- Course Dropdown -->
+    <div class="form-group">
+        <label for="course">Course</label>
+        <select id="course" name="Course" class="form-control" required>
+            <option value="">-- Select Course --</option>
+        </select>
+    </div>
+
+    <div class="form-group">
+        <label>Password</label>
+        <input type="password" id="password" name="Password" class="form-control" required />
+    </div>
+
+    <button type="submit" class="btn btn-success">Register</button>
+</form>
+
+<p>Already registered? <a asp-action="Login">Login here</a></p>
+
+<!-- ✅ Client-side Validation & Dropdown Logic -->
+<script>
+    const data = {
+        "Engineering": {
+            "CSE": ["Master of Computer Applications (MCA)", "Bachelor of Engineering (D to D students)", "Bachelor of Engineering (Regular Students)"],
+            "Electrical": ["Bachelor of Engineering (D to D students)", "Bachelor of Engineering (Regular Students)", "Master of Engineering"],
+            "Civil": ["Bachelor of Engineering (D to D students)", "Bachelor of Engineering (Regular Students)"],
+            "Chemical": ["Bachelor of Engineering (D to D students)", "Bachelor of Engineering (Regular Students)"]
+        },
+        "Science": {
+            "Bio-Chemistry": ["B.Sc.", "M.Sc.", "M.Sc. in Bio-Chemistry"],
+            "Botany": ["B.Sc.", "M.Sc."],
+            "Chemistry": ["B.Sc.", "M.Sc."],
+            "Environmental Science": ["B.Sc.", "M.Sc."],
+            "Mathematics": ["B.Sc.", "M.Sc."],
+            "Physics": ["B.Sc.", "M.Sc."],
+            "Computer Applications": ["BCA (HPP)"],
+            "Medical Biotechnology": ["M.Sc. in Medical Biotechnology (HPP)"],
+            "Others": ["M.Phil.", "Ph.D."]
+        },
+        "Arts": {
+            "Department of English": ["Bachelor of Arts (BA)", "Master of Arts (MA)"],
+            "Department of Sindhi": ["Bachelor of Arts (BA)", "Master of Arts (MA)"],
+            "Department of Hindi": ["Bachelor of Arts (BA)", "Master of Arts (MA)"],
+            "Department of Gujarati": ["Bachelor of Arts (BA)", "Master of Arts (MA)"]
+        },
+        "Commerce": {
+            "Banking and Insurance": ["Under Graduate", "Post Graduate"],
+            "Commerce": ["Bachelor of Commerce", "Master of Commerce"]
+        }
+    };
+
+    function updateDepartments() {
+        const faculty = document.getElementById("faculty").value;
+        const departmentSelect = document.getElementById("department");
+        const courseSelect = document.getElementById("course");
+        departmentSelect.innerHTML = '<option value="">-- Select Department --</option>';
+        courseSelect.innerHTML = '<option value="">-- Select Course --</option>';
+
+        if (faculty && data[faculty]) {
+            const departments = Object.keys(data[faculty]);
+            departments.forEach(dep => {
+                const option = document.createElement("option");
+                option.value = dep;
+                option.text = dep;
+                departmentSelect.appendChild(option);
+            });
+        }
+    }
+
+    function updateCourses() {
+        const faculty = document.getElementById("faculty").value;
+        const department = document.getElementById("department").value;
+        const courseSelect = document.getElementById("course");
+        courseSelect.innerHTML = '<option value="">-- Select Course --</option>';
+
+        if (faculty && department && data[faculty][department]) {
+            const courses = data[faculty][department];
+            courses.forEach(course => {
+                const option = document.createElement("option");
+                option.value = course;
+                option.text = course;
+                courseSelect.appendChild(option);
+            });
+        }
+    }
+
+    function validateForm() {
+        const fullName = document.getElementById("fullName").value.trim();
+        const email = document.getElementById("email").value.trim();
+        const contact = document.getElementById("contactNo").value.trim();
+        const faculty = document.getElementById("faculty").value.trim();
+        const department = document.getElementById("department").value.trim();
+        const course = document.getElementById("course").value.trim();
+        const password = document.getElementById("password").value.trim();
+
+        if (!fullName || !email || !contact || !faculty || !department || !course || !password) {
+            alert("⚠️ All fields are required.");
+            return false;
+        }
+
+        const contactPattern = /^\d{10}$/;
+        if (!contactPattern.test(contact)) {
+            alert("⚠️ Contact number must be exactly 10 digits.");
+            return false;
+        }
+
+        return true;
+    }
+</script>

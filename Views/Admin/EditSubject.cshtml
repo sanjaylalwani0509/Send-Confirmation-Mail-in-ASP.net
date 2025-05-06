@@ -1,0 +1,86 @@
+﻿@model MSU_BARODA.Models.Subject
+@{
+    ViewData["Title"] = "Edit Subject";
+}
+
+<h2>Edit Subject</h2>
+
+<form asp-action="EditSubject" method="post">
+    <input type="hidden" asp-for="SubjectId" />
+
+    <div class="form-group">
+        <label>Faculty</label>
+        <select id="facultySelect" name="Faculty" class="form-control" required></select>
+    </div>
+
+    <div class="form-group">
+        <label>Department</label>
+        <select id="departmentSelect" name="Department" class="form-control" required></select>
+    </div>
+
+    <div class="form-group">
+        <label>Course</label>
+        <select id="courseSelect" name="Course" class="form-control" required></select>
+    </div>
+
+    <div class="form-group">
+        <label>Subject Name</label>
+        <input type="text" name="SubjectName" class="form-control" value="@Model.SubjectName" required />
+    </div>
+
+    <button type="submit" class="btn btn-primary">Update Subject</button>
+    <a asp-action="ManageSubjects" class="btn btn-secondary">Cancel</a>
+</form>
+
+@section Scripts {
+    <script>
+        const faculties = @Html.Raw(System.Text.Json.JsonSerializer.Serialize(MSU_BARODA.Helpers.StaticData.Faculties));
+        const selectedFaculty = "@Model.Faculty";
+        const selectedDepartment = "@Model.Department";
+        const selectedCourse = "@Model.Course";
+
+        const facultySelect = document.getElementById("facultySelect");
+        const departmentSelect = document.getElementById("departmentSelect");
+        const courseSelect = document.getElementById("courseSelect");
+
+        for (const faculty in faculties) {
+            const selected = faculty === selectedFaculty ? "selected" : "";
+            facultySelect.innerHTML += `<option value="${faculty}" ${selected}>${faculty}</option>`;
+        }
+
+        function populateDepartments() {
+            const faculty = facultySelect.value;
+            departmentSelect.innerHTML = '<option value="">-- Select Department --</option>';
+            courseSelect.innerHTML = '<option value="">-- Select Course --</option>';
+
+            if (faculty && faculties[faculty]) {
+                for (const dept in faculties[faculty]) {
+                    const selected = dept === selectedDepartment ? "selected" : "";
+                    departmentSelect.innerHTML += `<option value="${dept}" ${selected}>${dept}</option>`;
+                }
+                populateCourses();
+            }
+        }
+
+        function populateCourses() {
+            const faculty = facultySelect.value;
+            const department = departmentSelect.value;
+
+            courseSelect.innerHTML = '<option value="">-- Select Course --</option>';
+
+            if (faculty && department && faculties[faculty][department]) {
+                faculties[faculty][department].forEach(course => {
+                    const selected = course === selectedCourse ? "selected" : "";
+                    courseSelect.innerHTML += `<option value="${course}" ${selected}>${course}</option>`;
+                });
+            }
+        }
+
+        facultySelect.addEventListener("change", populateDepartments);
+        departmentSelect.addEventListener("change", populateCourses);
+
+        window.onload = () => {
+            populateDepartments();
+        };
+    </script>
+}

@@ -1,0 +1,51 @@
+﻿@model List<MSU_BARODA.Models.AssignmentSubmission>
+@{
+    ViewData["Title"] = "All Assignment Submissions";
+}
+
+<div class="container mt-5">
+    <h2 class="mb-4 text-center text-success fw-bold">📂 All Assignment Submissions</h2>
+
+    @if (Model.Count == 0)
+    {
+        <div class="alert alert-warning text-center">
+            No submissions found.
+        </div>
+    }
+    else
+    {
+        <table class="table table-bordered table-striped shadow-sm">
+            <thead class="table-dark">
+                <tr>
+                    <th>PRN</th>
+                    <th>File Name</th>
+                    <th>Submitted At</th>
+                    <th>Actions</th>
+                </tr>
+            </thead>
+            <tbody>
+                @foreach (var submission in Model)
+                {
+                    <tr>
+                        <td>@submission.PRN</td>
+                        <td>@submission.FileName</td>
+                        <td>@submission.SubmittedAt.ToString("dd MMM yyyy hh:mm tt")</td>
+                        <td class="d-flex gap-2">
+                            <a href="@Url.Content(submission.FilePath)" target="_blank" class="btn btn-sm btn-primary">
+                                View
+                            </a>
+
+                            <a asp-action="DownloadFile" asp-route-id="@submission.Id" class="btn btn-sm btn-success">
+                                Download
+                            </a>
+
+                            <form asp-action="DeleteSubmission" asp-route-id="@submission.Id" method="post" onsubmit="return confirm('Are you sure you want to delete this file?');">
+                                <button type="submit" class="btn btn-sm btn-danger">Delete</button>
+                            </form>
+                        </td>
+                    </tr>
+                }
+            </tbody>
+        </table>
+    }
+</div>

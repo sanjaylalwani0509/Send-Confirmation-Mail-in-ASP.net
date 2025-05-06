@@ -1,0 +1,3 @@
+﻿<Project>
+  <Import Project="..\build\MSU_BARODA.props" />
+</Project>

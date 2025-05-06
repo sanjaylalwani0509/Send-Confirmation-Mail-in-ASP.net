@@ -1,0 +1,99 @@
+﻿@model List<MSU_BARODA.Models.Subject>
+@using MSU_BARODA.Helpers
+@{
+    ViewData["Title"] = "Manage Subjects";
+    var faculties = ViewBag.Faculties as Dictionary<string, Dictionary<string, List<string>>>;
+}
+
+<h2>Manage Subjects</h2>
+
+<form method="get" asp-action="ManageSubjects" class="form-inline mb-3">
+    <select id="facultyFilter" name="faculty" class="form-control mr-2">
+        <option value="">-- Select Faculty --</option>
+        @foreach (var faculty in faculties.Keys)
+        {
+            <option value="@faculty" selected="@(faculty == ViewBag.SelectedFaculty ? "selected" : null)">@faculty</option>
+        }
+    </select>
+
+    <select id="departmentFilter" name="department" class="form-control mr-2">
+        <option value="">-- Select Department --</option>
+    </select>
+
+    <select id="courseFilter" name="course" class="form-control mr-2">
+        <option value="">-- Select Course --</option>
+    </select>
+
+    <button type="submit" class="btn btn-primary">Filter</button>
+    <a asp-action="AddSubject" class="btn btn-success ml-3">Add Subject</a>
+</form>
+
+<table class="table table-bordered">
+    <thead>
+        <tr>
+            <th>Faculty</th>
+            <th>Department</th>
+            <th>Course</th>
+            <th>Subject Name</th>
+            <th>Actions</th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var subject in Model)
+        {
+            <tr>
+                <td>@subject.Faculty</td>
+                <td>@subject.Department</td>
+                <td>@subject.Course</td>
+                <td>@subject.SubjectName</td>
+                <td>
+                    <a asp-action="EditSubject" asp-route-id="@subject.SubjectId" class="btn btn-sm btn-warning">Edit</a>
+                    <form asp-action="DeleteSubject" method="post" style="display:inline;">
+                        <input type="hidden" name="id" value="@subject.SubjectId" />
+                        <button type="submit" class="btn btn-sm btn-danger" onclick="return confirm('Delete this subject?')">Delete</button>
+                    </form>
+                </td>
+            </tr>
+        }
+    </tbody>
+</table>
+
+@section Scripts {
+    <script>
+        const faculties = @Html.Raw(System.Text.Json.JsonSerializer.Serialize(ViewBag.Faculties));
+
+        function populateDepartments(facultySelectId, deptSelectId, selectedDept = "") {
+            const faculty = document.getElementById(facultySelectId).value;
+            const departments = faculty && faculties[faculty] ? Object.keys(faculties[faculty]) : [];
+
+            const deptSelect = document.getElementById(deptSelectId);
+            deptSelect.innerHTML = '<option value="">-- Select Department --</option>';
+            departments.forEach(d => {
+                deptSelect.innerHTML += `<option value="${d}" ${d === selectedDept ? "selected" : ""}>${d}</option>`;
+            });
+
+            populateCourses(facultySelectId, deptSelectId, "courseFilter");
+        }
+
+        function populateCourses(facultySelectId, deptSelectId, courseSelectId, selectedCourse = "") {
+            const faculty = document.getElementById(facultySelectId).value;
+            const dept = document.getElementById(deptSelectId).value;
+            const courses = (faculty && dept && faculties[faculty] && faculties[faculty][dept]) ? faculties[faculty][dept] : [];
+
+            const courseSelect = document.getElementById(courseSelectId);
+            courseSelect.innerHTML = '<option value="">-- Select Course --</option>';
+            courses.forEach(c => {
+                courseSelect.innerHTML += `<option value="${c}" ${c === selectedCourse ? "selected" : ""}>${c}</option>`;
+            });
+        }
+
+        document.getElementById("facultyFilter").addEventListener("change", () => populateDepartments("facultyFilter", "departmentFilter"));
+        document.getElementById("departmentFilter").addEventListener("change", () => populateCourses("facultyFilter", "departmentFilter", "courseFilter"));
+
+        // Pre-populate if needed
+        window.onload = () => {
+            populateDepartments("facultyFilter", "departmentFilter", "@ViewBag.SelectedDepartment");
+            populateCourses("facultyFilter", "departmentFilter", "courseFilter", "@ViewBag.SelectedCourse");
+        };
+    </script>
+}

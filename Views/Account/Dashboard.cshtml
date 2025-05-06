@@ -1,0 +1,154 @@
+﻿@{
+    Layout = null;
+}
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8" />
+    <title>MSU Baroda Dashboard</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <style>
+        /* Navbar Styling */
+        .navbar {
+            background: #2c3e50;
+            color: white;
+            padding: 15px 30px;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            box-shadow: 0 2px 8px rgba(0, 0, 0, 0.2);
+            position: sticky;
+            top: 0;
+            z-index: 1000;
+        }
+
+        .logo {
+            font-size: 22px;
+            font-weight: bold;
+        }
+
+        .nav-links {
+            list-style: none;
+            display: flex;
+            gap: 30px;
+        }
+
+            .nav-links li a {
+                text-decoration: none;
+                color: white;
+                font-size: 16px;
+                transition: color 0.3s;
+            }
+
+                .nav-links li a:hover {
+                    color: #3498db;
+                }
+
+        .profile-btn {
+            background: #3498db;
+            border: none;
+            padding: 10px 16px;
+            border-radius: 50px;
+            color: white;
+            font-size: 14px;
+            cursor: pointer;
+            transition: background 0.3s;
+        }
+
+            .profile-btn:hover {
+                background: #2980b9;
+            }
+
+        body {
+            margin: 0;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            background: #f4f6f8;
+        }
+
+        .container {
+            padding: 40px 30px;
+            text-align: center;
+        }
+
+        .slideshow-container {
+            position: relative;
+            width: 800px; /* Fixed width */
+            height: 500px; /* Fixed height */
+            margin: auto;
+            overflow: hidden;
+            border-radius: 10px;
+            background-color: #ffffff;
+            box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+        }
+
+        .slides {
+            display: none;
+            width: 100%;
+            height: 100%;
+            object-fit: contain;
+            border-radius: 10px;
+            background-color: white;
+            animation: fade 1.5s ease-in-out;
+        }
+
+        @@keyframes fade {
+            from {
+                opacity: 0.4;
+            }
+
+            to {
+                opacity: 1;
+            }
+        }
+    </style>
+</head>
+
+<body>
+
+    <!-- Navbar -->
+    <div class="navbar">
+        <div class="logo">MSU BARODA</div>
+        <ul class="nav-links">
+            <li><a href="/Account/Dashboard">Home</a></li>
+            <li><a href="/Home/About">About Us</a></li>
+            <li><a href="/Home/Contact">Contact Us</a></li>
+            <li><a asp-controller="Assignment" asp-action="Index">My Assignments</a></li>
+
+        </ul>
+        <button class="profile-btn">My Profile</button>
+    </div>
+
+
+    <!-- Page Content -->
+    <div class="container">
+        <h1>Welcome to MSU Baroda</h1>
+        <p>Explore the beautiful campus images below:</p>
+
+        <!-- Slideshow -->
+        <div class="slideshow-container">
+            <img class="slides" src="/images/msu_full.jpeg" alt="MSU Image 1">
+            <img class="slides" src="/images/msu_arts.jpg" alt="MSU Image 2">
+            <img class="slides" src="/images/techooo.jpg" alt="MSU Image 3">
+            <img class="slides" src="/images/msu_main.jpg" alt="MSU Image 4">
+        </div>
+    </div>
+
+    <script>
+        let slideIndex = 0;
+        showSlides();
+
+        function showSlides() {
+            const slides = document.getElementsByClassName("slides");
+            for (let i = 0; i < slides.length; i++) {
+                slides[i].style.display = "none";
+            }
+            slideIndex++;
+            if (slideIndex > slides.length) { slideIndex = 1; }
+            slides[slideIndex - 1].style.display = "block";
+            setTimeout(showSlides, 3000); // Change image every 3 seconds
+        }
+    </script>
+
+</body>
+</html>

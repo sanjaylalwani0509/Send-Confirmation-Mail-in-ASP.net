@@ -1,0 +1,147 @@
+﻿@{
+    ViewData["Title"] = "Contact Us";
+    Layout = null;
+}
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8" />
+    <title>Contact Us - MSU Baroda</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <style>
+        body {
+            margin: 0;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            background: #f4f6f8;
+        }
+
+        .navbar {
+            background: #2c3e50;
+            color: white;
+            padding: 15px 30px;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            box-shadow: 0 2px 8px rgba(0, 0, 0, 0.2);
+            position: sticky;
+            top: 0;
+            z-index: 1000;
+        }
+
+        .logo {
+            font-size: 22px;
+            font-weight: bold;
+        }
+
+        .nav-links {
+            list-style: none;
+            display: flex;
+            gap: 30px;
+        }
+
+            .nav-links li a {
+                text-decoration: none;
+                color: white;
+                font-size: 16px;
+                transition: color 0.3s;
+            }
+
+                .nav-links li a:hover {
+                    color: #3498db;
+                }
+
+        .profile-btn {
+            background: #3498db;
+            border: none;
+            padding: 10px 16px;
+            border-radius: 50px;
+            color: white;
+            font-size: 14px;
+            cursor: pointer;
+            transition: background 0.3s;
+        }
+
+            .profile-btn:hover {
+                background: #2980b9;
+            }
+
+        .content {
+            max-width: 800px;
+            margin: 80px auto;
+            background-color: #fff;
+            padding: 40px;
+            border-radius: 8px;
+            box-shadow: 0 0 10px rgba(0,0,0,0.1);
+        }
+
+        h2 {
+            color: #2c3e50;
+            border-bottom: 3px solid #3498db;
+            padding-bottom: 5px;
+            display: inline-block;
+            margin-bottom: 30px;
+        }
+
+        h3 {
+            color: #2c3e50;
+            margin-top: 20px;
+            margin-bottom: 10px;
+        }
+
+        p, a {
+            color: #333;
+            font-size: 16px;
+            line-height: 1.6;
+            margin: 5px 0;
+        }
+
+        a {
+            text-decoration: none;
+        }
+
+            a:hover {
+                text-decoration: underline;
+                color: #2980b9;
+            }
+
+        .support {
+            margin-top: 30px;
+            font-weight: 500;
+        }
+    </style>
+</head>
+<body>
+
+    <!-- Navbar -->
+    <div class="navbar">
+        <div class="logo">MSU BARODA</div>
+        <ul class="nav-links">
+            <li><a href="/Account/Dashboard">Home</a></li>
+            <li><a href="/Home/About">About Us</a></li>
+            <li><a href="/Home/Contact">Contact Us</a></li>
+        </ul>
+        <button class="profile-btn">My Profile</button>
+    </div>
+
+    <!-- Contact Content -->
+    <div class="content">
+        <h2>Contact Us:</h2>
+
+        <h3>Head Office Address</h3>
+        <p>
+            The M. S. University of Baroda, Pratapgunj,<br />
+            Vadodara, Gujarat-390002
+        </p>
+
+        <p><strong>Phone:</strong> +91-265-2795555</p>
+        <p><strong>Email:</strong> <a href="mailto:info@msubaroda.ac.in">info@msubaroda.ac.in</a></p>
+        <p><strong>Website:</strong> <a href="https://www.msubaroda.ac.in" target="_blank">www.msubaroda.ac.in</a></p>
+
+        <div class="support">
+            <p><strong>For Support to website contact:</strong></p>
+            <p><a href="mailto:webcontent-cc@msubaroda.ac.in">webcontent-cc@msubaroda.ac.in</a></p>
+        </div>
+    </div>
+</body>
+</html>

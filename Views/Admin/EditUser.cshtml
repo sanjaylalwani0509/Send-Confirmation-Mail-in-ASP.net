@@ -1,0 +1,139 @@
+﻿@model MSU_BARODA.Models.Student
+@{
+    ViewData["Title"] = "Edit User";
+}
+
+<h2>Edit Student</h2>
+
+<form asp-action="EditUser" method="post">
+    <div class="form-group">
+        <label>PRN</label>
+        <input type="text" name="PRN" class="form-control" value="@Model.PRN" readonly />
+    </div>
+
+    <div class="form-group">
+        <label>Full Name</label>
+        <input type="text" name="FullName" class="form-control" value="@Model.FullName" required />
+    </div>
+
+    <div class="form-group">
+        <label>Email</label>
+        <input type="email" name="Email" class="form-control" value="@Model.Email" required />
+    </div>
+
+    <div class="form-group">
+        <label>Contact No</label>
+        <input type="text" name="ContactNo" class="form-control" value="@Model.ContactNo" required />
+    </div>
+
+    <!-- Faculty Dropdown -->
+    <div class="form-group">
+        <label>Faculty</label>
+        <select id="faculty" name="Faculty" class="form-control" required onchange="updateDepartments()">
+            <option value="">-- Select Faculty --</option>
+            @{
+                var faculties = new List<string> { "Engineering", "Science", "Arts", "Commerce" };
+                foreach (var faculty in faculties)
+                {
+                    var selected = Model.Faculty == faculty ? "selected" : "";
+                    <option value="@faculty" selected="@(Model.Faculty == faculty ? "selected" : null)">@faculty</option>
+                }
+            }
+        </select>
+
+
+    </div>
+
+    <!-- Department Dropdown -->
+    <div class="form-group">
+        <label>Department</label>
+        <select id="department" name="Department" class="form-control" required onchange="updateCourses()">
+            <option value="">-- Select Department --</option>
+        </select>
+    </div>
+
+    <!-- Course Dropdown -->
+    <div class="form-group">
+        <label>Course</label>
+        <select id="course" name="Course" class="form-control" required>
+            <option value="">-- Select Course --</option>
+        </select>
+    </div>
+
+    <button type="submit" class="btn btn-primary">Update</button>
+</form>
+
+@section Scripts {
+    <script>
+        const data = {
+            "Engineering": {
+                "CSE": ["Master of Computer Applications (MCA)", "Bachelor of Engineering (D to D students)", "Bachelor of Engineering (Regular Students)"],
+                "Electrical": ["Bachelor of Engineering (D to D students)", "Bachelor of Engineering (Regular Students)", "Master of Engineering"],
+                "Civil": ["Bachelor of Engineering (D to D students)", "Bachelor of Engineering (Regular Students)"],
+                "Chemical": ["Bachelor of Engineering (D to D students)", "Bachelor of Engineering (Regular Students)"]
+            },
+            "Science": {
+                "Bio-Chemistry": ["B.Sc.", "M.Sc.", "M.Sc. in Bio-Chemistry"],
+                "Botany": ["B.Sc.", "M.Sc."],
+                "Chemistry": ["B.Sc.", "M.Sc."],
+                "Environmental Science": ["B.Sc.", "M.Sc."],
+                "Mathematics": ["B.Sc.", "M.Sc."],
+                "Physics": ["B.Sc.", "M.Sc."],
+                "Computer Applications": ["BCA (HPP)"],
+                "Medical Biotechnology": ["M.Sc. in Medical Biotechnology (HPP)"],
+                "Others": ["M.Phil.", "Ph.D."]
+            },
+            "Arts": {
+                "Department of English": ["Bachelor of Arts (BA)", "Master of Arts (MA)"],
+                "Department of Sindhi": ["Bachelor of Arts (BA)", "Master of Arts (MA)"],
+                "Department of Hindi": ["Bachelor of Arts (BA)", "Master of Arts (MA)"],
+                "Department of Gujarati": ["Bachelor of Arts (BA)", "Master of Arts (MA)"]
+            },
+            "Commerce": {
+                "Banking and Insurance": ["Under Graduate", "Post Graduate"],
+                "Commerce": ["Bachelor of Commerce", "Master of Commerce"]
+            }
+        };
+
+        function updateDepartments() {
+            const faculty = document.getElementById("faculty").value;
+            const department = document.getElementById("department");
+            const course = document.getElementById("course");
+            department.innerHTML = '<option value="">-- Select Department --</option>';
+            course.innerHTML = '<option value="">-- Select Course --</option>';
+
+            if (data[faculty]) {
+                Object.keys(data[faculty]).forEach(dep => {
+                    const option = document.createElement("option");
+                    option.value = dep;
+                    option.text = dep;
+                    if (dep === "@Model.Department") option.selected = true;
+                    department.appendChild(option);
+                });
+            }
+
+            updateCourses();
+        }
+
+        function updateCourses() {
+            const faculty = document.getElementById("faculty").value;
+            const department = document.getElementById("department").value;
+            const course = document.getElementById("course");
+            course.innerHTML = '<option value="">-- Select Course --</option>';
+
+            if (data[faculty] && data[faculty][department]) {
+                data[faculty][department].forEach(crs => {
+                    const option = document.createElement("option");
+                    option.value = crs;
+                    option.text = crs;
+                    if (crs === "@Model.Course") option.selected = true;
+                    course.appendChild(option);
+                });
+            }
+        }
+
+        document.addEventListener("DOMContentLoaded", function () {
+            updateDepartments();  // trigger department list load
+        });
+    </script>
+}

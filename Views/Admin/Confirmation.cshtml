@@ -1,0 +1,9 @@
+﻿@{
+    ViewData["Title"] = "Admin Registration Successful";
+}
+
+<h2>Registration Successful!</h2>
+
+<p>Your Admin ID is: <strong>@ViewBag.AdminID</strong></p>
+
+<p><a href="@Url.Action("Login", "Admin")" class="btn btn-primary">Go to Login</a></p>

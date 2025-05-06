@@ -1,0 +1,519 @@
+D:\Sanjay Mail Confirmation\MSU_BARODA\obj\Debug\net8.0\MSU_BARODA.csproj.AssemblyReference.cache
+D:\Sanjay Mail Confirmation\MSU_BARODA\obj\Debug\net8.0\MSU_BARODA.GeneratedMSBuildEditorConfig.editorconfig
+D:\Sanjay Mail Confirmation\MSU_BARODA\obj\Debug\net8.0\MSU_BARODA.AssemblyInfoInputs.cache
+D:\Sanjay Mail Confirmation\MSU_BARODA\obj\Debug\net8.0\MSU_BARODA.AssemblyInfo.cs
+D:\Sanjay Mail Confirmation\MSU_BARODA\obj\Debug\net8.0\MSU_BARODA.csproj.CoreCompileInputs.cache
+D:\Sanjay Mail Confirmation\MSU_BARODA\obj\Debug\net8.0\MSU_BARODA.MvcApplicationPartsAssemblyInfo.cs
+D:\Sanjay Mail Confirmation\MSU_BARODA\obj\Debug\net8.0\MSU_BARODA.MvcApplicationPartsAssemblyInfo.cache
+D:\Sanjay Mail Confirmation\MSU_BARODA\obj\Debug\net8.0\MSU_BARODA.RazorAssemblyInfo.cache
+D:\Sanjay Mail Confirmation\MSU_BARODA\obj\Debug\net8.0\MSU_BARODA.RazorAssemblyInfo.cs
+D:\Sanjay Mail Confirmation\MSU_BARODA\bin\Debug\net8.0\appsettings.Development.json
+D:\Sanjay Mail Confirmation\MSU_BARODA\bin\Debug\net8.0\appsettings.json
+D:\Sanjay Mail Confirmation\MSU_BARODA\bin\Debug\net8.0\MSU_BARODA.staticwebassets.runtime.json
+D:\Sanjay Mail Confirmation\MSU_BARODA\bin\Debug\net8.0\MSU_BARODA.staticwebassets.endpoints.json
+D:\Sanjay Mail Confirmation\MSU_BARODA\bin\Debug\net8.0\MSU_BARODA.exe
+D:\Sanjay Mail Confirmation\MSU_BARODA\bin\Debug\net8.0\MSU_BARODA.deps.json
+D:\Sanjay Mail Confirmation\MSU_BARODA\bin\Debug\net8.0\MSU_BARODA.runtimeconfig.json
+D:\Sanjay Mail Confirmation\MSU_BARODA\bin\Debug\net8.0\MSU_BARODA.dll
+D:\Sanjay Mail Confirmation\MSU_BARODA\bin\Debug\net8.0\MSU_BARODA.pdb
+D:\Sanjay Mail Confirmation\MSU_BARODA\bin\Debug\net8.0\BouncyCastle.Cryptography.dll
+D:\Sanjay Mail Confirmation\MSU_BARODA\bin\Debug\net8.0\FluentEmail.Core.dll
+D:\Sanjay Mail Confirmation\MSU_BARODA\bin\Debug\net8.0\FluentEmail.Smtp.dll
+D:\Sanjay Mail Confirmation\MSU_BARODA\bin\Debug\net8.0\Humanizer.dll
+D:\Sanjay Mail Confirmation\MSU_BARODA\bin\Debug\net8.0\MailKit.dll
+D:\Sanjay Mail Confirmation\MSU_BARODA\bin\Debug\net8.0\Microsoft.AspNetCore.Cryptography.Internal.dll
+D:\Sanjay Mail Confirmation\MSU_BARODA\bin\Debug\net8.0\Microsoft.AspNetCore.Cryptography.KeyDerivation.dll
+D:\Sanjay Mail Confirmation\MSU_BARODA\bin\Debug\net8.0\Microsoft.AspNetCore.Identity.EntityFrameworkCore.dll
+D:\Sanjay Mail Confirmation\MSU_BARODA\bin\Debug\net8.0\Microsoft.AspNetCore.Identity.UI.dll
+D:\Sanjay Mail Confirmation\MSU_BARODA\bin\Debug\net8.0\Microsoft.Bcl.AsyncInterfaces.dll
+D:\Sanjay Mail Confirmation\MSU_BARODA\bin\Debug\net8.0\Microsoft.CodeAnalysis.dll
+D:\Sanjay Mail Confirmation\MSU_BARODA\bin\Debug\net8.0\Microsoft.CodeAnalysis.CSharp.dll
+D:\Sanjay Mail Confirmation\MSU_BARODA\bin\Debug\net8.0\Microsoft.CodeAnalysis.CSharp.Workspaces.dll
+D:\Sanjay Mail Confirmation\MSU_BARODA\bin\Debug\net8.0\Microsoft.CodeAnalysis.Workspaces.dll
+D:\Sanjay Mail Confirmation\MSU_BARODA\bin\Debug\net8.0\Microsoft.EntityFrameworkCore.dll
+D:\Sanjay Mail Confirmation\MSU_BARODA\bin\Debug\net8.0\Microsoft.EntityFrameworkCore.Abstractions.dll
+D:\Sanjay Mail Confirmation\MSU_BARODA\bin\Debug\net8.0\Microsoft.EntityFrameworkCore.Design.dll
+D:\Sanjay Mail Confirmation\MSU_BARODA\bin\Debug\net8.0\Microsoft.EntityFrameworkCore.Relational.dll
+D:\Sanjay Mail Confirmation\MSU_BARODA\bin\Debug\net8.0\Microsoft.Extensions.Caching.Memory.dll
+D:\Sanjay Mail Confirmation\MSU_BARODA\bin\Debug\net8.0\Microsoft.Extensions.DependencyInjection.dll
+D:\Sanjay Mail Confirmation\MSU_BARODA\bin\Debug\net8.0\Microsoft.Extensions.DependencyInjection.Abstractions.dll
+D:\Sanjay Mail Confirmation\MSU_BARODA\bin\Debug\net8.0\Microsoft.Extensions.DependencyModel.dll
+D:\Sanjay Mail Confirmation\MSU_BARODA\bin\Debug\net8.0\Microsoft.Extensions.FileProviders.Embedded.dll
+D:\Sanjay Mail Confirmation\MSU_BARODA\bin\Debug\net8.0\Microsoft.Extensions.Identity.Core.dll
+D:\Sanjay Mail Confirmation\MSU_BARODA\bin\Debug\net8.0\Microsoft.Extensions.Identity.Stores.dll
+D:\Sanjay Mail Confirmation\MSU_BARODA\bin\Debug\net8.0\Microsoft.Extensions.Logging.dll
+D:\Sanjay Mail Confirmation\MSU_BARODA\bin\Debug\net8.0\Microsoft.Extensions.Logging.Abstractions.dll
+D:\Sanjay Mail Confirmation\MSU_BARODA\bin\Debug\net8.0\Microsoft.Extensions.Options.dll
+D:\Sanjay Mail Confirmation\MSU_BARODA\bin\Debug\net8.0\MimeKit.dll
+D:\Sanjay Mail Confirmation\MSU_BARODA\bin\Debug\net8.0\Mono.TextTemplating.dll
+D:\Sanjay Mail Confirmation\MSU_BARODA\bin\Debug\net8.0\MySqlConnector.dll
+D:\Sanjay Mail Confirmation\MSU_BARODA\bin\Debug\net8.0\Pomelo.EntityFrameworkCore.MySql.dll
+D:\Sanjay Mail Confirmation\MSU_BARODA\bin\Debug\net8.0\System.CodeDom.dll
+D:\Sanjay Mail Confirmation\MSU_BARODA\bin\Debug\net8.0\System.Composition.AttributedModel.dll
+D:\Sanjay Mail Confirmation\MSU_BARODA\bin\Debug\net8.0\System.Composition.Convention.dll
+D:\Sanjay Mail Confirmation\MSU_BARODA\bin\Debug\net8.0\System.Composition.Hosting.dll
+D:\Sanjay Mail Confirmation\MSU_BARODA\bin\Debug\net8.0\System.Composition.Runtime.dll
+D:\Sanjay Mail Confirmation\MSU_BARODA\bin\Debug\net8.0\System.Composition.TypedParts.dll
+D:\Sanjay Mail Confirmation\MSU_BARODA\bin\Debug\net8.0\System.Security.Cryptography.Pkcs.dll
+D:\Sanjay Mail Confirmation\MSU_BARODA\bin\Debug\net8.0\cs\Microsoft.CodeAnalysis.resources.dll
+D:\Sanjay Mail Confirmation\MSU_BARODA\bin\Debug\net8.0\de\Microsoft.CodeAnalysis.resources.dll
+D:\Sanjay Mail Confirmation\MSU_BARODA\bin\Debug\net8.0\es\Microsoft.CodeAnalysis.resources.dll
+D:\Sanjay Mail Confirmation\MSU_BARODA\bin\Debug\net8.0\fr\Microsoft.CodeAnalysis.resources.dll
+D:\Sanjay Mail Confirmation\MSU_BARODA\bin\Debug\net8.0\it\Microsoft.CodeAnalysis.resources.dll
+D:\Sanjay Mail Confirmation\MSU_BARODA\bin\Debug\net8.0\ja\Microsoft.CodeAnalysis.resources.dll
+D:\Sanjay Mail Confirmation\MSU_BARODA\bin\Debug\net8.0\ko\Microsoft.CodeAnalysis.resources.dll
+D:\Sanjay Mail Confirmation\MSU_BARODA\bin\Debug\net8.0\pl\Microsoft.CodeAnalysis.resources.dll
+D:\Sanjay Mail Confirmation\MSU_BARODA\bin\Debug\net8.0\pt-BR\Microsoft.CodeAnalysis.resources.dll
+D:\Sanjay Mail Confirmation\MSU_BARODA\bin\Debug\net8.0\ru\Microsoft.CodeAnalysis.resources.dll
+D:\Sanjay Mail Confirmation\MSU_BARODA\bin\Debug\net8.0\tr\Microsoft.CodeAnalysis.resources.dll
+D:\Sanjay Mail Confirmation\MSU_BARODA\bin\Debug\net8.0\zh-Hans\Microsoft.CodeAnalysis.resources.dll
+D:\Sanjay Mail Confirmation\MSU_BARODA\bin\Debug\net8.0\zh-Hant\Microsoft.CodeAnalysis.resources.dll
+D:\Sanjay Mail Confirmation\MSU_BARODA\bin\Debug\net8.0\cs\Microsoft.CodeAnalysis.CSharp.resources.dll
+D:\Sanjay Mail Confirmation\MSU_BARODA\bin\Debug\net8.0\de\Microsoft.CodeAnalysis.CSharp.resources.dll
+D:\Sanjay Mail Confirmation\MSU_BARODA\bin\Debug\net8.0\es\Microsoft.CodeAnalysis.CSharp.resources.dll
+D:\Sanjay Mail Confirmation\MSU_BARODA\bin\Debug\net8.0\fr\Microsoft.CodeAnalysis.CSharp.resources.dll
+D:\Sanjay Mail Confirmation\MSU_BARODA\bin\Debug\net8.0\it\Microsoft.CodeAnalysis.CSharp.resources.dll
+D:\Sanjay Mail Confirmation\MSU_BARODA\bin\Debug\net8.0\ja\Microsoft.CodeAnalysis.CSharp.resources.dll
+D:\Sanjay Mail Confirmation\MSU_BARODA\bin\Debug\net8.0\ko\Microsoft.CodeAnalysis.CSharp.resources.dll
+D:\Sanjay Mail Confirmation\MSU_BARODA\bin\Debug\net8.0\pl\Microsoft.CodeAnalysis.CSharp.resources.dll
+D:\Sanjay Mail Confirmation\MSU_BARODA\bin\Debug\net8.0\pt-BR\Microsoft.CodeAnalysis.CSharp.resources.dll
+D:\Sanjay Mail Confirmation\MSU_BARODA\bin\Debug\net8.0\ru\Microsoft.CodeAnalysis.CSharp.resources.dll
+D:\Sanjay Mail Confirmation\MSU_BARODA\bin\Debug\net8.0\tr\Microsoft.CodeAnalysis.CSharp.resources.dll
+D:\Sanjay Mail Confirmation\MSU_BARODA\bin\Debug\net8.0\zh-Hans\Microsoft.CodeAnalysis.CSharp.resources.dll
+D:\Sanjay Mail Confirmation\MSU_BARODA\bin\Debug\net8.0\zh-Hant\Microsoft.CodeAnalysis.CSharp.resources.dll
+D:\Sanjay Mail Confirmation\MSU_BARODA\bin\Debug\net8.0\cs\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+D:\Sanjay Mail Confirmation\MSU_BARODA\bin\Debug\net8.0\de\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+D:\Sanjay Mail Confirmation\MSU_BARODA\bin\Debug\net8.0\es\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+D:\Sanjay Mail Confirmation\MSU_BARODA\bin\Debug\net8.0\fr\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+D:\Sanjay Mail Confirmation\MSU_BARODA\bin\Debug\net8.0\it\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+D:\Sanjay Mail Confirmation\MSU_BARODA\bin\Debug\net8.0\ja\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+D:\Sanjay Mail Confirmation\MSU_BARODA\bin\Debug\net8.0\ko\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+D:\Sanjay Mail Confirmation\MSU_BARODA\bin\Debug\net8.0\pl\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+D:\Sanjay Mail Confirmation\MSU_BARODA\bin\Debug\net8.0\pt-BR\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+D:\Sanjay Mail Confirmation\MSU_BARODA\bin\Debug\net8.0\ru\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+D:\Sanjay Mail Confirmation\MSU_BARODA\bin\Debug\net8.0\tr\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+D:\Sanjay Mail Confirmation\MSU_BARODA\bin\Debug\net8.0\zh-Hans\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+D:\Sanjay Mail Confirmation\MSU_BARODA\bin\Debug\net8.0\zh-Hant\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+D:\Sanjay Mail Confirmation\MSU_BARODA\bin\Debug\net8.0\cs\Microsoft.CodeAnalysis.Workspaces.resources.dll
+D:\Sanjay Mail Confirmation\MSU_BARODA\bin\Debug\net8.0\de\Microsoft.CodeAnalysis.Workspaces.resources.dll
+D:\Sanjay Mail Confirmation\MSU_BARODA\bin\Debug\net8.0\es\Microsoft.CodeAnalysis.Workspaces.resources.dll
+D:\Sanjay Mail Confirmation\MSU_BARODA\bin\Debug\net8.0\fr\Microsoft.CodeAnalysis.Workspaces.resources.dll
+D:\Sanjay Mail Confirmation\MSU_BARODA\bin\Debug\net8.0\it\Microsoft.CodeAnalysis.Workspaces.resources.dll
+D:\Sanjay Mail Confirmation\MSU_BARODA\bin\Debug\net8.0\ja\Microsoft.CodeAnalysis.Workspaces.resources.dll
+D:\Sanjay Mail Confirmation\MSU_BARODA\bin\Debug\net8.0\ko\Microsoft.CodeAnalysis.Workspaces.resources.dll
+D:\Sanjay Mail Confirmation\MSU_BARODA\bin\Debug\net8.0\pl\Microsoft.CodeAnalysis.Workspaces.resources.dll
+D:\Sanjay Mail Confirmation\MSU_BARODA\bin\Debug\net8.0\pt-BR\Microsoft.CodeAnalysis.Workspaces.resources.dll
+D:\Sanjay Mail Confirmation\MSU_BARODA\bin\Debug\net8.0\ru\Microsoft.CodeAnalysis.Workspaces.resources.dll
+D:\Sanjay Mail Confirmation\MSU_BARODA\bin\Debug\net8.0\tr\Microsoft.CodeAnalysis.Workspaces.resources.dll
+D:\Sanjay Mail Confirmation\MSU_BARODA\bin\Debug\net8.0\zh-Hans\Microsoft.CodeAnalysis.Workspaces.resources.dll
+D:\Sanjay Mail Confirmation\MSU_BARODA\bin\Debug\net8.0\zh-Hant\Microsoft.CodeAnalysis.Workspaces.resources.dll
+D:\Sanjay Mail Confirmation\MSU_BARODA\bin\Debug\net8.0\runtimes\win\lib\net8.0\System.Security.Cryptography.Pkcs.dll
+D:\Sanjay Mail Confirmation\MSU_BARODA\obj\Debug\net8.0\scopedcss\Views\Shared\_Layout.cshtml.rz.scp.css
+D:\Sanjay Mail Confirmation\MSU_BARODA\obj\Debug\net8.0\scopedcss\bundle\MSU_BARODA.styles.css
+D:\Sanjay Mail Confirmation\MSU_BARODA\obj\Debug\net8.0\scopedcss\projectbundle\MSU_BARODA.bundle.scp.css
+D:\Sanjay Mail Confirmation\MSU_BARODA\obj\Debug\net8.0\staticwebassets.build.json
+D:\Sanjay Mail Confirmation\MSU_BARODA\obj\Debug\net8.0\staticwebassets.development.json
+D:\Sanjay Mail Confirmation\MSU_BARODA\obj\Debug\net8.0\staticwebassets.build.endpoints.json
+D:\Sanjay Mail Confirmation\MSU_BARODA\obj\Debug\net8.0\staticwebassets\msbuild.MSU_BARODA.Microsoft.AspNetCore.StaticWebAssets.props
+D:\Sanjay Mail Confirmation\MSU_BARODA\obj\Debug\net8.0\staticwebassets\msbuild.MSU_BARODA.Microsoft.AspNetCore.StaticWebAssetEndpoints.props
+D:\Sanjay Mail Confirmation\MSU_BARODA\obj\Debug\net8.0\staticwebassets\msbuild.build.MSU_BARODA.props
+D:\Sanjay Mail Confirmation\MSU_BARODA\obj\Debug\net8.0\staticwebassets\msbuild.buildMultiTargeting.MSU_BARODA.props
+D:\Sanjay Mail Confirmation\MSU_BARODA\obj\Debug\net8.0\staticwebassets\msbuild.buildTransitive.MSU_BARODA.props
+D:\Sanjay Mail Confirmation\MSU_BARODA\obj\Debug\net8.0\staticwebassets.pack.json
+D:\Sanjay Mail Confirmation\MSU_BARODA\obj\Debug\net8.0\MSU_BARODA.csproj.Up2Date
+D:\Sanjay Mail Confirmation\MSU_BARODA\obj\Debug\net8.0\MSU_BARODA.dll
+D:\Sanjay Mail Confirmation\MSU_BARODA\obj\Debug\net8.0\refint\MSU_BARODA.dll
+D:\Sanjay Mail Confirmation\MSU_BARODA\obj\Debug\net8.0\MSU_BARODA.pdb
+D:\Sanjay Mail Confirmation\MSU_BARODA\obj\Debug\net8.0\MSU_BARODA.genruntimeconfig.cache
+D:\Sanjay Mail Confirmation\MSU_BARODA\obj\Debug\net8.0\ref\MSU_BARODA.dll
+D:\Sanjay Mail Confirmation\MSU_BARODA\obj\Debug\net8.0\staticwebassets.upToDateCheck.txt
+C:\Users\Dell\OneDrive\Desktop\New folder (2)\Sanjay Mail Confirmation\MSU_BARODA\bin\Debug\net8.0\appsettings.Development.json
+C:\Users\Dell\OneDrive\Desktop\New folder (2)\Sanjay Mail Confirmation\MSU_BARODA\bin\Debug\net8.0\appsettings.json
+C:\Users\Dell\OneDrive\Desktop\New folder (2)\Sanjay Mail Confirmation\MSU_BARODA\bin\Debug\net8.0\MSU_BARODA.staticwebassets.runtime.json
+C:\Users\Dell\OneDrive\Desktop\New folder (2)\Sanjay Mail Confirmation\MSU_BARODA\bin\Debug\net8.0\MSU_BARODA.staticwebassets.endpoints.json
+C:\Users\Dell\OneDrive\Desktop\New folder (2)\Sanjay Mail Confirmation\MSU_BARODA\bin\Debug\net8.0\MSU_BARODA.exe
+C:\Users\Dell\OneDrive\Desktop\New folder (2)\Sanjay Mail Confirmation\MSU_BARODA\bin\Debug\net8.0\MSU_BARODA.deps.json
+C:\Users\Dell\OneDrive\Desktop\New folder (2)\Sanjay Mail Confirmation\MSU_BARODA\bin\Debug\net8.0\MSU_BARODA.runtimeconfig.json
+C:\Users\Dell\OneDrive\Desktop\New folder (2)\Sanjay Mail Confirmation\MSU_BARODA\bin\Debug\net8.0\MSU_BARODA.dll
+C:\Users\Dell\OneDrive\Desktop\New folder (2)\Sanjay Mail Confirmation\MSU_BARODA\bin\Debug\net8.0\MSU_BARODA.pdb
+C:\Users\Dell\OneDrive\Desktop\New folder (2)\Sanjay Mail Confirmation\MSU_BARODA\bin\Debug\net8.0\BouncyCastle.Cryptography.dll
+C:\Users\Dell\OneDrive\Desktop\New folder (2)\Sanjay Mail Confirmation\MSU_BARODA\bin\Debug\net8.0\FluentEmail.Core.dll
+C:\Users\Dell\OneDrive\Desktop\New folder (2)\Sanjay Mail Confirmation\MSU_BARODA\bin\Debug\net8.0\FluentEmail.Smtp.dll
+C:\Users\Dell\OneDrive\Desktop\New folder (2)\Sanjay Mail Confirmation\MSU_BARODA\bin\Debug\net8.0\Humanizer.dll
+C:\Users\Dell\OneDrive\Desktop\New folder (2)\Sanjay Mail Confirmation\MSU_BARODA\bin\Debug\net8.0\MailKit.dll
+C:\Users\Dell\OneDrive\Desktop\New folder (2)\Sanjay Mail Confirmation\MSU_BARODA\bin\Debug\net8.0\Microsoft.AspNetCore.Cryptography.Internal.dll
+C:\Users\Dell\OneDrive\Desktop\New folder (2)\Sanjay Mail Confirmation\MSU_BARODA\bin\Debug\net8.0\Microsoft.AspNetCore.Cryptography.KeyDerivation.dll
+C:\Users\Dell\OneDrive\Desktop\New folder (2)\Sanjay Mail Confirmation\MSU_BARODA\bin\Debug\net8.0\Microsoft.AspNetCore.Identity.EntityFrameworkCore.dll
+C:\Users\Dell\OneDrive\Desktop\New folder (2)\Sanjay Mail Confirmation\MSU_BARODA\bin\Debug\net8.0\Microsoft.AspNetCore.Identity.UI.dll
+C:\Users\Dell\OneDrive\Desktop\New folder (2)\Sanjay Mail Confirmation\MSU_BARODA\bin\Debug\net8.0\Microsoft.Bcl.AsyncInterfaces.dll
+C:\Users\Dell\OneDrive\Desktop\New folder (2)\Sanjay Mail Confirmation\MSU_BARODA\bin\Debug\net8.0\Microsoft.CodeAnalysis.dll
+C:\Users\Dell\OneDrive\Desktop\New folder (2)\Sanjay Mail Confirmation\MSU_BARODA\bin\Debug\net8.0\Microsoft.CodeAnalysis.CSharp.dll
+C:\Users\Dell\OneDrive\Desktop\New folder (2)\Sanjay Mail Confirmation\MSU_BARODA\bin\Debug\net8.0\Microsoft.CodeAnalysis.CSharp.Workspaces.dll
+C:\Users\Dell\OneDrive\Desktop\New folder (2)\Sanjay Mail Confirmation\MSU_BARODA\bin\Debug\net8.0\Microsoft.CodeAnalysis.Workspaces.dll
+C:\Users\Dell\OneDrive\Desktop\New folder (2)\Sanjay Mail Confirmation\MSU_BARODA\bin\Debug\net8.0\Microsoft.EntityFrameworkCore.dll
+C:\Users\Dell\OneDrive\Desktop\New folder (2)\Sanjay Mail Confirmation\MSU_BARODA\bin\Debug\net8.0\Microsoft.EntityFrameworkCore.Abstractions.dll
+C:\Users\Dell\OneDrive\Desktop\New folder (2)\Sanjay Mail Confirmation\MSU_BARODA\bin\Debug\net8.0\Microsoft.EntityFrameworkCore.Design.dll
+C:\Users\Dell\OneDrive\Desktop\New folder (2)\Sanjay Mail Confirmation\MSU_BARODA\bin\Debug\net8.0\Microsoft.EntityFrameworkCore.Relational.dll
+C:\Users\Dell\OneDrive\Desktop\New folder (2)\Sanjay Mail Confirmation\MSU_BARODA\bin\Debug\net8.0\Microsoft.Extensions.Caching.Memory.dll
+C:\Users\Dell\OneDrive\Desktop\New folder (2)\Sanjay Mail Confirmation\MSU_BARODA\bin\Debug\net8.0\Microsoft.Extensions.DependencyInjection.dll
+C:\Users\Dell\OneDrive\Desktop\New folder (2)\Sanjay Mail Confirmation\MSU_BARODA\bin\Debug\net8.0\Microsoft.Extensions.DependencyInjection.Abstractions.dll
+C:\Users\Dell\OneDrive\Desktop\New folder (2)\Sanjay Mail Confirmation\MSU_BARODA\bin\Debug\net8.0\Microsoft.Extensions.DependencyModel.dll
+C:\Users\Dell\OneDrive\Desktop\New folder (2)\Sanjay Mail Confirmation\MSU_BARODA\bin\Debug\net8.0\Microsoft.Extensions.FileProviders.Embedded.dll
+C:\Users\Dell\OneDrive\Desktop\New folder (2)\Sanjay Mail Confirmation\MSU_BARODA\bin\Debug\net8.0\Microsoft.Extensions.Identity.Core.dll
+C:\Users\Dell\OneDrive\Desktop\New folder (2)\Sanjay Mail Confirmation\MSU_BARODA\bin\Debug\net8.0\Microsoft.Extensions.Identity.Stores.dll
+C:\Users\Dell\OneDrive\Desktop\New folder (2)\Sanjay Mail Confirmation\MSU_BARODA\bin\Debug\net8.0\Microsoft.Extensions.Logging.dll
+C:\Users\Dell\OneDrive\Desktop\New folder (2)\Sanjay Mail Confirmation\MSU_BARODA\bin\Debug\net8.0\Microsoft.Extensions.Logging.Abstractions.dll
+C:\Users\Dell\OneDrive\Desktop\New folder (2)\Sanjay Mail Confirmation\MSU_BARODA\bin\Debug\net8.0\Microsoft.Extensions.Options.dll
+C:\Users\Dell\OneDrive\Desktop\New folder (2)\Sanjay Mail Confirmation\MSU_BARODA\bin\Debug\net8.0\MimeKit.dll
+C:\Users\Dell\OneDrive\Desktop\New folder (2)\Sanjay Mail Confirmation\MSU_BARODA\bin\Debug\net8.0\Mono.TextTemplating.dll
+C:\Users\Dell\OneDrive\Desktop\New folder (2)\Sanjay Mail Confirmation\MSU_BARODA\bin\Debug\net8.0\MySqlConnector.dll
+C:\Users\Dell\OneDrive\Desktop\New folder (2)\Sanjay Mail Confirmation\MSU_BARODA\bin\Debug\net8.0\Pomelo.EntityFrameworkCore.MySql.dll
+C:\Users\Dell\OneDrive\Desktop\New folder (2)\Sanjay Mail Confirmation\MSU_BARODA\bin\Debug\net8.0\System.CodeDom.dll
+C:\Users\Dell\OneDrive\Desktop\New folder (2)\Sanjay Mail Confirmation\MSU_BARODA\bin\Debug\net8.0\System.Composition.AttributedModel.dll
+C:\Users\Dell\OneDrive\Desktop\New folder (2)\Sanjay Mail Confirmation\MSU_BARODA\bin\Debug\net8.0\System.Composition.Convention.dll
+C:\Users\Dell\OneDrive\Desktop\New folder (2)\Sanjay Mail Confirmation\MSU_BARODA\bin\Debug\net8.0\System.Composition.Hosting.dll
+C:\Users\Dell\OneDrive\Desktop\New folder (2)\Sanjay Mail Confirmation\MSU_BARODA\bin\Debug\net8.0\System.Composition.Runtime.dll
+C:\Users\Dell\OneDrive\Desktop\New folder (2)\Sanjay Mail Confirmation\MSU_BARODA\bin\Debug\net8.0\System.Composition.TypedParts.dll
+C:\Users\Dell\OneDrive\Desktop\New folder (2)\Sanjay Mail Confirmation\MSU_BARODA\bin\Debug\net8.0\System.Security.Cryptography.Pkcs.dll
+C:\Users\Dell\OneDrive\Desktop\New folder (2)\Sanjay Mail Confirmation\MSU_BARODA\bin\Debug\net8.0\cs\Microsoft.CodeAnalysis.resources.dll
+C:\Users\Dell\OneDrive\Desktop\New folder (2)\Sanjay Mail Confirmation\MSU_BARODA\bin\Debug\net8.0\de\Microsoft.CodeAnalysis.resources.dll
+C:\Users\Dell\OneDrive\Desktop\New folder (2)\Sanjay Mail Confirmation\MSU_BARODA\bin\Debug\net8.0\es\Microsoft.CodeAnalysis.resources.dll
+C:\Users\Dell\OneDrive\Desktop\New folder (2)\Sanjay Mail Confirmation\MSU_BARODA\bin\Debug\net8.0\fr\Microsoft.CodeAnalysis.resources.dll
+C:\Users\Dell\OneDrive\Desktop\New folder (2)\Sanjay Mail Confirmation\MSU_BARODA\bin\Debug\net8.0\it\Microsoft.CodeAnalysis.resources.dll
+C:\Users\Dell\OneDrive\Desktop\New folder (2)\Sanjay Mail Confirmation\MSU_BARODA\bin\Debug\net8.0\ja\Microsoft.CodeAnalysis.resources.dll
+C:\Users\Dell\OneDrive\Desktop\New folder (2)\Sanjay Mail Confirmation\MSU_BARODA\bin\Debug\net8.0\ko\Microsoft.CodeAnalysis.resources.dll
+C:\Users\Dell\OneDrive\Desktop\New folder (2)\Sanjay Mail Confirmation\MSU_BARODA\bin\Debug\net8.0\pl\Microsoft.CodeAnalysis.resources.dll
+C:\Users\Dell\OneDrive\Desktop\New folder (2)\Sanjay Mail Confirmation\MSU_BARODA\bin\Debug\net8.0\pt-BR\Microsoft.CodeAnalysis.resources.dll
+C:\Users\Dell\OneDrive\Desktop\New folder (2)\Sanjay Mail Confirmation\MSU_BARODA\bin\Debug\net8.0\ru\Microsoft.CodeAnalysis.resources.dll
+C:\Users\Dell\OneDrive\Desktop\New folder (2)\Sanjay Mail Confirmation\MSU_BARODA\bin\Debug\net8.0\tr\Microsoft.CodeAnalysis.resources.dll
+C:\Users\Dell\OneDrive\Desktop\New folder (2)\Sanjay Mail Confirmation\MSU_BARODA\bin\Debug\net8.0\zh-Hans\Microsoft.CodeAnalysis.resources.dll
+C:\Users\Dell\OneDrive\Desktop\New folder (2)\Sanjay Mail Confirmation\MSU_BARODA\bin\Debug\net8.0\zh-Hant\Microsoft.CodeAnalysis.resources.dll
+C:\Users\Dell\OneDrive\Desktop\New folder (2)\Sanjay Mail Confirmation\MSU_BARODA\bin\Debug\net8.0\cs\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\Dell\OneDrive\Desktop\New folder (2)\Sanjay Mail Confirmation\MSU_BARODA\bin\Debug\net8.0\de\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\Dell\OneDrive\Desktop\New folder (2)\Sanjay Mail Confirmation\MSU_BARODA\bin\Debug\net8.0\es\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\Dell\OneDrive\Desktop\New folder (2)\Sanjay Mail Confirmation\MSU_BARODA\bin\Debug\net8.0\fr\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\Dell\OneDrive\Desktop\New folder (2)\Sanjay Mail Confirmation\MSU_BARODA\bin\Debug\net8.0\it\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\Dell\OneDrive\Desktop\New folder (2)\Sanjay Mail Confirmation\MSU_BARODA\bin\Debug\net8.0\ja\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\Dell\OneDrive\Desktop\New folder (2)\Sanjay Mail Confirmation\MSU_BARODA\bin\Debug\net8.0\ko\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\Dell\OneDrive\Desktop\New folder (2)\Sanjay Mail Confirmation\MSU_BARODA\bin\Debug\net8.0\pl\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\Dell\OneDrive\Desktop\New folder (2)\Sanjay Mail Confirmation\MSU_BARODA\bin\Debug\net8.0\pt-BR\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\Dell\OneDrive\Desktop\New folder (2)\Sanjay Mail Confirmation\MSU_BARODA\bin\Debug\net8.0\ru\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\Dell\OneDrive\Desktop\New folder (2)\Sanjay Mail Confirmation\MSU_BARODA\bin\Debug\net8.0\tr\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\Dell\OneDrive\Desktop\New folder (2)\Sanjay Mail Confirmation\MSU_BARODA\bin\Debug\net8.0\zh-Hans\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\Dell\OneDrive\Desktop\New folder (2)\Sanjay Mail Confirmation\MSU_BARODA\bin\Debug\net8.0\zh-Hant\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\Dell\OneDrive\Desktop\New folder (2)\Sanjay Mail Confirmation\MSU_BARODA\bin\Debug\net8.0\cs\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Users\Dell\OneDrive\Desktop\New folder (2)\Sanjay Mail Confirmation\MSU_BARODA\bin\Debug\net8.0\de\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Users\Dell\OneDrive\Desktop\New folder (2)\Sanjay Mail Confirmation\MSU_BARODA\bin\Debug\net8.0\es\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Users\Dell\OneDrive\Desktop\New folder (2)\Sanjay Mail Confirmation\MSU_BARODA\bin\Debug\net8.0\fr\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Users\Dell\OneDrive\Desktop\New folder (2)\Sanjay Mail Confirmation\MSU_BARODA\bin\Debug\net8.0\it\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Users\Dell\OneDrive\Desktop\New folder (2)\Sanjay Mail Confirmation\MSU_BARODA\bin\Debug\net8.0\ja\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Users\Dell\OneDrive\Desktop\New folder (2)\Sanjay Mail Confirmation\MSU_BARODA\bin\Debug\net8.0\ko\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Users\Dell\OneDrive\Desktop\New folder (2)\Sanjay Mail Confirmation\MSU_BARODA\bin\Debug\net8.0\pl\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Users\Dell\OneDrive\Desktop\New folder (2)\Sanjay Mail Confirmation\MSU_BARODA\bin\Debug\net8.0\pt-BR\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Users\Dell\OneDrive\Desktop\New folder (2)\Sanjay Mail Confirmation\MSU_BARODA\bin\Debug\net8.0\ru\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Users\Dell\OneDrive\Desktop\New folder (2)\Sanjay Mail Confirmation\MSU_BARODA\bin\Debug\net8.0\tr\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Users\Dell\OneDrive\Desktop\New folder (2)\Sanjay Mail Confirmation\MSU_BARODA\bin\Debug\net8.0\zh-Hans\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Users\Dell\OneDrive\Desktop\New folder (2)\Sanjay Mail Confirmation\MSU_BARODA\bin\Debug\net8.0\zh-Hant\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Users\Dell\OneDrive\Desktop\New folder (2)\Sanjay Mail Confirmation\MSU_BARODA\bin\Debug\net8.0\cs\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Users\Dell\OneDrive\Desktop\New folder (2)\Sanjay Mail Confirmation\MSU_BARODA\bin\Debug\net8.0\de\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Users\Dell\OneDrive\Desktop\New folder (2)\Sanjay Mail Confirmation\MSU_BARODA\bin\Debug\net8.0\es\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Users\Dell\OneDrive\Desktop\New folder (2)\Sanjay Mail Confirmation\MSU_BARODA\bin\Debug\net8.0\fr\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Users\Dell\OneDrive\Desktop\New folder (2)\Sanjay Mail Confirmation\MSU_BARODA\bin\Debug\net8.0\it\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Users\Dell\OneDrive\Desktop\New folder (2)\Sanjay Mail Confirmation\MSU_BARODA\bin\Debug\net8.0\ja\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Users\Dell\OneDrive\Desktop\New folder (2)\Sanjay Mail Confirmation\MSU_BARODA\bin\Debug\net8.0\ko\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Users\Dell\OneDrive\Desktop\New folder (2)\Sanjay Mail Confirmation\MSU_BARODA\bin\Debug\net8.0\pl\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Users\Dell\OneDrive\Desktop\New folder (2)\Sanjay Mail Confirmation\MSU_BARODA\bin\Debug\net8.0\pt-BR\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Users\Dell\OneDrive\Desktop\New folder (2)\Sanjay Mail Confirmation\MSU_BARODA\bin\Debug\net8.0\ru\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Users\Dell\OneDrive\Desktop\New folder (2)\Sanjay Mail Confirmation\MSU_BARODA\bin\Debug\net8.0\tr\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Users\Dell\OneDrive\Desktop\New folder (2)\Sanjay Mail Confirmation\MSU_BARODA\bin\Debug\net8.0\zh-Hans\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Users\Dell\OneDrive\Desktop\New folder (2)\Sanjay Mail Confirmation\MSU_BARODA\bin\Debug\net8.0\zh-Hant\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Users\Dell\OneDrive\Desktop\New folder (2)\Sanjay Mail Confirmation\MSU_BARODA\bin\Debug\net8.0\runtimes\win\lib\net8.0\System.Security.Cryptography.Pkcs.dll
+C:\Users\Dell\OneDrive\Desktop\New folder (2)\Sanjay Mail Confirmation\MSU_BARODA\obj\Debug\net8.0\MSU_BARODA.csproj.AssemblyReference.cache
+C:\Users\Dell\OneDrive\Desktop\New folder (2)\Sanjay Mail Confirmation\MSU_BARODA\obj\Debug\net8.0\MSU_BARODA.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Dell\OneDrive\Desktop\New folder (2)\Sanjay Mail Confirmation\MSU_BARODA\obj\Debug\net8.0\MSU_BARODA.AssemblyInfoInputs.cache
+C:\Users\Dell\OneDrive\Desktop\New folder (2)\Sanjay Mail Confirmation\MSU_BARODA\obj\Debug\net8.0\MSU_BARODA.AssemblyInfo.cs
+C:\Users\Dell\OneDrive\Desktop\New folder (2)\Sanjay Mail Confirmation\MSU_BARODA\obj\Debug\net8.0\MSU_BARODA.csproj.CoreCompileInputs.cache
+C:\Users\Dell\OneDrive\Desktop\New folder (2)\Sanjay Mail Confirmation\MSU_BARODA\obj\Debug\net8.0\MSU_BARODA.MvcApplicationPartsAssemblyInfo.cs
+C:\Users\Dell\OneDrive\Desktop\New folder (2)\Sanjay Mail Confirmation\MSU_BARODA\obj\Debug\net8.0\MSU_BARODA.MvcApplicationPartsAssemblyInfo.cache
+C:\Users\Dell\OneDrive\Desktop\New folder (2)\Sanjay Mail Confirmation\MSU_BARODA\obj\Debug\net8.0\MSU_BARODA.RazorAssemblyInfo.cache
+C:\Users\Dell\OneDrive\Desktop\New folder (2)\Sanjay Mail Confirmation\MSU_BARODA\obj\Debug\net8.0\MSU_BARODA.RazorAssemblyInfo.cs
+C:\Users\Dell\OneDrive\Desktop\New folder (2)\Sanjay Mail Confirmation\MSU_BARODA\obj\Debug\net8.0\scopedcss\Views\Shared\_Layout.cshtml.rz.scp.css
+C:\Users\Dell\OneDrive\Desktop\New folder (2)\Sanjay Mail Confirmation\MSU_BARODA\obj\Debug\net8.0\scopedcss\bundle\MSU_BARODA.styles.css
+C:\Users\Dell\OneDrive\Desktop\New folder (2)\Sanjay Mail Confirmation\MSU_BARODA\obj\Debug\net8.0\scopedcss\projectbundle\MSU_BARODA.bundle.scp.css
+C:\Users\Dell\OneDrive\Desktop\New folder (2)\Sanjay Mail Confirmation\MSU_BARODA\obj\Debug\net8.0\staticwebassets.build.json
+C:\Users\Dell\OneDrive\Desktop\New folder (2)\Sanjay Mail Confirmation\MSU_BARODA\obj\Debug\net8.0\staticwebassets.development.json
+C:\Users\Dell\OneDrive\Desktop\New folder (2)\Sanjay Mail Confirmation\MSU_BARODA\obj\Debug\net8.0\staticwebassets.build.endpoints.json
+C:\Users\Dell\OneDrive\Desktop\New folder (2)\Sanjay Mail Confirmation\MSU_BARODA\obj\Debug\net8.0\staticwebassets\msbuild.MSU_BARODA.Microsoft.AspNetCore.StaticWebAssets.props
+C:\Users\Dell\OneDrive\Desktop\New folder (2)\Sanjay Mail Confirmation\MSU_BARODA\obj\Debug\net8.0\staticwebassets\msbuild.MSU_BARODA.Microsoft.AspNetCore.StaticWebAssetEndpoints.props
+C:\Users\Dell\OneDrive\Desktop\New folder (2)\Sanjay Mail Confirmation\MSU_BARODA\obj\Debug\net8.0\staticwebassets\msbuild.build.MSU_BARODA.props
+C:\Users\Dell\OneDrive\Desktop\New folder (2)\Sanjay Mail Confirmation\MSU_BARODA\obj\Debug\net8.0\staticwebassets\msbuild.buildMultiTargeting.MSU_BARODA.props
+C:\Users\Dell\OneDrive\Desktop\New folder (2)\Sanjay Mail Confirmation\MSU_BARODA\obj\Debug\net8.0\staticwebassets\msbuild.buildTransitive.MSU_BARODA.props
+C:\Users\Dell\OneDrive\Desktop\New folder (2)\Sanjay Mail Confirmation\MSU_BARODA\obj\Debug\net8.0\staticwebassets.pack.json
+C:\Users\Dell\OneDrive\Desktop\New folder (2)\Sanjay Mail Confirmation\MSU_BARODA\obj\Debug\net8.0\MSU_BARODA.csproj.Up2Date
+C:\Users\Dell\OneDrive\Desktop\New folder (2)\Sanjay Mail Confirmation\MSU_BARODA\obj\Debug\net8.0\MSU_BARODA.dll
+C:\Users\Dell\OneDrive\Desktop\New folder (2)\Sanjay Mail Confirmation\MSU_BARODA\obj\Debug\net8.0\refint\MSU_BARODA.dll
+C:\Users\Dell\OneDrive\Desktop\New folder (2)\Sanjay Mail Confirmation\MSU_BARODA\obj\Debug\net8.0\MSU_BARODA.pdb
+C:\Users\Dell\OneDrive\Desktop\New folder (2)\Sanjay Mail Confirmation\MSU_BARODA\obj\Debug\net8.0\MSU_BARODA.genruntimeconfig.cache
+C:\Users\Dell\OneDrive\Desktop\New folder (2)\Sanjay Mail Confirmation\MSU_BARODA\obj\Debug\net8.0\ref\MSU_BARODA.dll
+C:\Users\Dell\OneDrive\Desktop\New folder (2)\Sanjay Mail Confirmation\MSU_BARODA\bin\Debug\net8.0\Newtonsoft.Json.dll
+C:\Users\Dell\OneDrive\Desktop\New folder (2)\Sanjay Mail Confirmation\MSU_BARODA\obj\Debug\net8.0\staticwebassets.upToDateCheck.txt
+C:\Users\Dell\OneDrive\Desktop\BACKUP\Sanjay Mail Confirmation\MSU_BARODA\bin\Debug\net8.0\appsettings.Development.json
+C:\Users\Dell\OneDrive\Desktop\BACKUP\Sanjay Mail Confirmation\MSU_BARODA\bin\Debug\net8.0\appsettings.json
+C:\Users\Dell\OneDrive\Desktop\BACKUP\Sanjay Mail Confirmation\MSU_BARODA\bin\Debug\net8.0\MSU_BARODA.staticwebassets.endpoints.json
+C:\Users\Dell\OneDrive\Desktop\BACKUP\Sanjay Mail Confirmation\MSU_BARODA\bin\Debug\net8.0\MSU_BARODA.staticwebassets.runtime.json
+C:\Users\Dell\OneDrive\Desktop\BACKUP\Sanjay Mail Confirmation\MSU_BARODA\bin\Debug\net8.0\MSU_BARODA.exe
+C:\Users\Dell\OneDrive\Desktop\BACKUP\Sanjay Mail Confirmation\MSU_BARODA\bin\Debug\net8.0\MSU_BARODA.deps.json
+C:\Users\Dell\OneDrive\Desktop\BACKUP\Sanjay Mail Confirmation\MSU_BARODA\bin\Debug\net8.0\MSU_BARODA.runtimeconfig.json
+C:\Users\Dell\OneDrive\Desktop\BACKUP\Sanjay Mail Confirmation\MSU_BARODA\bin\Debug\net8.0\MSU_BARODA.dll
+C:\Users\Dell\OneDrive\Desktop\BACKUP\Sanjay Mail Confirmation\MSU_BARODA\bin\Debug\net8.0\MSU_BARODA.pdb
+C:\Users\Dell\OneDrive\Desktop\BACKUP\Sanjay Mail Confirmation\MSU_BARODA\bin\Debug\net8.0\BouncyCastle.Cryptography.dll
+C:\Users\Dell\OneDrive\Desktop\BACKUP\Sanjay Mail Confirmation\MSU_BARODA\bin\Debug\net8.0\FluentEmail.Core.dll
+C:\Users\Dell\OneDrive\Desktop\BACKUP\Sanjay Mail Confirmation\MSU_BARODA\bin\Debug\net8.0\FluentEmail.Smtp.dll
+C:\Users\Dell\OneDrive\Desktop\BACKUP\Sanjay Mail Confirmation\MSU_BARODA\bin\Debug\net8.0\Humanizer.dll
+C:\Users\Dell\OneDrive\Desktop\BACKUP\Sanjay Mail Confirmation\MSU_BARODA\bin\Debug\net8.0\MailKit.dll
+C:\Users\Dell\OneDrive\Desktop\BACKUP\Sanjay Mail Confirmation\MSU_BARODA\bin\Debug\net8.0\Microsoft.AspNetCore.Cryptography.Internal.dll
+C:\Users\Dell\OneDrive\Desktop\BACKUP\Sanjay Mail Confirmation\MSU_BARODA\bin\Debug\net8.0\Microsoft.AspNetCore.Cryptography.KeyDerivation.dll
+C:\Users\Dell\OneDrive\Desktop\BACKUP\Sanjay Mail Confirmation\MSU_BARODA\bin\Debug\net8.0\Microsoft.AspNetCore.Identity.EntityFrameworkCore.dll
+C:\Users\Dell\OneDrive\Desktop\BACKUP\Sanjay Mail Confirmation\MSU_BARODA\bin\Debug\net8.0\Microsoft.AspNetCore.Identity.UI.dll
+C:\Users\Dell\OneDrive\Desktop\BACKUP\Sanjay Mail Confirmation\MSU_BARODA\bin\Debug\net8.0\Microsoft.Bcl.AsyncInterfaces.dll
+C:\Users\Dell\OneDrive\Desktop\BACKUP\Sanjay Mail Confirmation\MSU_BARODA\bin\Debug\net8.0\Microsoft.CodeAnalysis.dll
+C:\Users\Dell\OneDrive\Desktop\BACKUP\Sanjay Mail Confirmation\MSU_BARODA\bin\Debug\net8.0\Microsoft.CodeAnalysis.CSharp.dll
+C:\Users\Dell\OneDrive\Desktop\BACKUP\Sanjay Mail Confirmation\MSU_BARODA\bin\Debug\net8.0\Microsoft.CodeAnalysis.CSharp.Workspaces.dll
+C:\Users\Dell\OneDrive\Desktop\BACKUP\Sanjay Mail Confirmation\MSU_BARODA\bin\Debug\net8.0\Microsoft.CodeAnalysis.Workspaces.dll
+C:\Users\Dell\OneDrive\Desktop\BACKUP\Sanjay Mail Confirmation\MSU_BARODA\bin\Debug\net8.0\Microsoft.EntityFrameworkCore.dll
+C:\Users\Dell\OneDrive\Desktop\BACKUP\Sanjay Mail Confirmation\MSU_BARODA\bin\Debug\net8.0\Microsoft.EntityFrameworkCore.Abstractions.dll
+C:\Users\Dell\OneDrive\Desktop\BACKUP\Sanjay Mail Confirmation\MSU_BARODA\bin\Debug\net8.0\Microsoft.EntityFrameworkCore.Design.dll
+C:\Users\Dell\OneDrive\Desktop\BACKUP\Sanjay Mail Confirmation\MSU_BARODA\bin\Debug\net8.0\Microsoft.EntityFrameworkCore.Relational.dll
+C:\Users\Dell\OneDrive\Desktop\BACKUP\Sanjay Mail Confirmation\MSU_BARODA\bin\Debug\net8.0\Microsoft.Extensions.Caching.Memory.dll
+C:\Users\Dell\OneDrive\Desktop\BACKUP\Sanjay Mail Confirmation\MSU_BARODA\bin\Debug\net8.0\Microsoft.Extensions.DependencyInjection.dll
+C:\Users\Dell\OneDrive\Desktop\BACKUP\Sanjay Mail Confirmation\MSU_BARODA\bin\Debug\net8.0\Microsoft.Extensions.DependencyInjection.Abstractions.dll
+C:\Users\Dell\OneDrive\Desktop\BACKUP\Sanjay Mail Confirmation\MSU_BARODA\bin\Debug\net8.0\Microsoft.Extensions.DependencyModel.dll
+C:\Users\Dell\OneDrive\Desktop\BACKUP\Sanjay Mail Confirmation\MSU_BARODA\bin\Debug\net8.0\Microsoft.Extensions.FileProviders.Embedded.dll
+C:\Users\Dell\OneDrive\Desktop\BACKUP\Sanjay Mail Confirmation\MSU_BARODA\bin\Debug\net8.0\Microsoft.Extensions.Identity.Core.dll
+C:\Users\Dell\OneDrive\Desktop\BACKUP\Sanjay Mail Confirmation\MSU_BARODA\bin\Debug\net8.0\Microsoft.Extensions.Identity.Stores.dll
+C:\Users\Dell\OneDrive\Desktop\BACKUP\Sanjay Mail Confirmation\MSU_BARODA\bin\Debug\net8.0\Microsoft.Extensions.Logging.dll
+C:\Users\Dell\OneDrive\Desktop\BACKUP\Sanjay Mail Confirmation\MSU_BARODA\bin\Debug\net8.0\Microsoft.Extensions.Logging.Abstractions.dll
+C:\Users\Dell\OneDrive\Desktop\BACKUP\Sanjay Mail Confirmation\MSU_BARODA\bin\Debug\net8.0\Microsoft.Extensions.Options.dll
+C:\Users\Dell\OneDrive\Desktop\BACKUP\Sanjay Mail Confirmation\MSU_BARODA\bin\Debug\net8.0\MimeKit.dll
+C:\Users\Dell\OneDrive\Desktop\BACKUP\Sanjay Mail Confirmation\MSU_BARODA\bin\Debug\net8.0\Mono.TextTemplating.dll
+C:\Users\Dell\OneDrive\Desktop\BACKUP\Sanjay Mail Confirmation\MSU_BARODA\bin\Debug\net8.0\MySqlConnector.dll
+C:\Users\Dell\OneDrive\Desktop\BACKUP\Sanjay Mail Confirmation\MSU_BARODA\bin\Debug\net8.0\Newtonsoft.Json.dll
+C:\Users\Dell\OneDrive\Desktop\BACKUP\Sanjay Mail Confirmation\MSU_BARODA\bin\Debug\net8.0\Pomelo.EntityFrameworkCore.MySql.dll
+C:\Users\Dell\OneDrive\Desktop\BACKUP\Sanjay Mail Confirmation\MSU_BARODA\bin\Debug\net8.0\System.CodeDom.dll
+C:\Users\Dell\OneDrive\Desktop\BACKUP\Sanjay Mail Confirmation\MSU_BARODA\bin\Debug\net8.0\System.Composition.AttributedModel.dll
+C:\Users\Dell\OneDrive\Desktop\BACKUP\Sanjay Mail Confirmation\MSU_BARODA\bin\Debug\net8.0\System.Composition.Convention.dll
+C:\Users\Dell\OneDrive\Desktop\BACKUP\Sanjay Mail Confirmation\MSU_BARODA\bin\Debug\net8.0\System.Composition.Hosting.dll
+C:\Users\Dell\OneDrive\Desktop\BACKUP\Sanjay Mail Confirmation\MSU_BARODA\bin\Debug\net8.0\System.Composition.Runtime.dll
+C:\Users\Dell\OneDrive\Desktop\BACKUP\Sanjay Mail Confirmation\MSU_BARODA\bin\Debug\net8.0\System.Composition.TypedParts.dll
+C:\Users\Dell\OneDrive\Desktop\BACKUP\Sanjay Mail Confirmation\MSU_BARODA\bin\Debug\net8.0\System.Security.Cryptography.Pkcs.dll
+C:\Users\Dell\OneDrive\Desktop\BACKUP\Sanjay Mail Confirmation\MSU_BARODA\bin\Debug\net8.0\cs\Microsoft.CodeAnalysis.resources.dll
+C:\Users\Dell\OneDrive\Desktop\BACKUP\Sanjay Mail Confirmation\MSU_BARODA\bin\Debug\net8.0\de\Microsoft.CodeAnalysis.resources.dll
+C:\Users\Dell\OneDrive\Desktop\BACKUP\Sanjay Mail Confirmation\MSU_BARODA\bin\Debug\net8.0\es\Microsoft.CodeAnalysis.resources.dll
+C:\Users\Dell\OneDrive\Desktop\BACKUP\Sanjay Mail Confirmation\MSU_BARODA\bin\Debug\net8.0\fr\Microsoft.CodeAnalysis.resources.dll
+C:\Users\Dell\OneDrive\Desktop\BACKUP\Sanjay Mail Confirmation\MSU_BARODA\bin\Debug\net8.0\it\Microsoft.CodeAnalysis.resources.dll
+C:\Users\Dell\OneDrive\Desktop\BACKUP\Sanjay Mail Confirmation\MSU_BARODA\bin\Debug\net8.0\ja\Microsoft.CodeAnalysis.resources.dll
+C:\Users\Dell\OneDrive\Desktop\BACKUP\Sanjay Mail Confirmation\MSU_BARODA\bin\Debug\net8.0\ko\Microsoft.CodeAnalysis.resources.dll
+C:\Users\Dell\OneDrive\Desktop\BACKUP\Sanjay Mail Confirmation\MSU_BARODA\bin\Debug\net8.0\pl\Microsoft.CodeAnalysis.resources.dll
+C:\Users\Dell\OneDrive\Desktop\BACKUP\Sanjay Mail Confirmation\MSU_BARODA\bin\Debug\net8.0\pt-BR\Microsoft.CodeAnalysis.resources.dll
+C:\Users\Dell\OneDrive\Desktop\BACKUP\Sanjay Mail Confirmation\MSU_BARODA\bin\Debug\net8.0\ru\Microsoft.CodeAnalysis.resources.dll
+C:\Users\Dell\OneDrive\Desktop\BACKUP\Sanjay Mail Confirmation\MSU_BARODA\bin\Debug\net8.0\tr\Microsoft.CodeAnalysis.resources.dll
+C:\Users\Dell\OneDrive\Desktop\BACKUP\Sanjay Mail Confirmation\MSU_BARODA\bin\Debug\net8.0\zh-Hans\Microsoft.CodeAnalysis.resources.dll
+C:\Users\Dell\OneDrive\Desktop\BACKUP\Sanjay Mail Confirmation\MSU_BARODA\bin\Debug\net8.0\zh-Hant\Microsoft.CodeAnalysis.resources.dll
+C:\Users\Dell\OneDrive\Desktop\BACKUP\Sanjay Mail Confirmation\MSU_BARODA\bin\Debug\net8.0\cs\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\Dell\OneDrive\Desktop\BACKUP\Sanjay Mail Confirmation\MSU_BARODA\bin\Debug\net8.0\de\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\Dell\OneDrive\Desktop\BACKUP\Sanjay Mail Confirmation\MSU_BARODA\bin\Debug\net8.0\es\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\Dell\OneDrive\Desktop\BACKUP\Sanjay Mail Confirmation\MSU_BARODA\bin\Debug\net8.0\fr\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\Dell\OneDrive\Desktop\BACKUP\Sanjay Mail Confirmation\MSU_BARODA\bin\Debug\net8.0\it\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\Dell\OneDrive\Desktop\BACKUP\Sanjay Mail Confirmation\MSU_BARODA\bin\Debug\net8.0\ja\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\Dell\OneDrive\Desktop\BACKUP\Sanjay Mail Confirmation\MSU_BARODA\bin\Debug\net8.0\ko\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\Dell\OneDrive\Desktop\BACKUP\Sanjay Mail Confirmation\MSU_BARODA\bin\Debug\net8.0\pl\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\Dell\OneDrive\Desktop\BACKUP\Sanjay Mail Confirmation\MSU_BARODA\bin\Debug\net8.0\pt-BR\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\Dell\OneDrive\Desktop\BACKUP\Sanjay Mail Confirmation\MSU_BARODA\bin\Debug\net8.0\ru\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\Dell\OneDrive\Desktop\BACKUP\Sanjay Mail Confirmation\MSU_BARODA\bin\Debug\net8.0\tr\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\Dell\OneDrive\Desktop\BACKUP\Sanjay Mail Confirmation\MSU_BARODA\bin\Debug\net8.0\zh-Hans\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\Dell\OneDrive\Desktop\BACKUP\Sanjay Mail Confirmation\MSU_BARODA\bin\Debug\net8.0\zh-Hant\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\Dell\OneDrive\Desktop\BACKUP\Sanjay Mail Confirmation\MSU_BARODA\bin\Debug\net8.0\cs\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Users\Dell\OneDrive\Desktop\BACKUP\Sanjay Mail Confirmation\MSU_BARODA\bin\Debug\net8.0\de\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Users\Dell\OneDrive\Desktop\BACKUP\Sanjay Mail Confirmation\MSU_BARODA\bin\Debug\net8.0\es\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Users\Dell\OneDrive\Desktop\BACKUP\Sanjay Mail Confirmation\MSU_BARODA\bin\Debug\net8.0\fr\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Users\Dell\OneDrive\Desktop\BACKUP\Sanjay Mail Confirmation\MSU_BARODA\bin\Debug\net8.0\it\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Users\Dell\OneDrive\Desktop\BACKUP\Sanjay Mail Confirmation\MSU_BARODA\bin\Debug\net8.0\ja\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Users\Dell\OneDrive\Desktop\BACKUP\Sanjay Mail Confirmation\MSU_BARODA\bin\Debug\net8.0\ko\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Users\Dell\OneDrive\Desktop\BACKUP\Sanjay Mail Confirmation\MSU_BARODA\bin\Debug\net8.0\pl\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Users\Dell\OneDrive\Desktop\BACKUP\Sanjay Mail Confirmation\MSU_BARODA\bin\Debug\net8.0\pt-BR\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Users\Dell\OneDrive\Desktop\BACKUP\Sanjay Mail Confirmation\MSU_BARODA\bin\Debug\net8.0\ru\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Users\Dell\OneDrive\Desktop\BACKUP\Sanjay Mail Confirmation\MSU_BARODA\bin\Debug\net8.0\tr\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Users\Dell\OneDrive\Desktop\BACKUP\Sanjay Mail Confirmation\MSU_BARODA\bin\Debug\net8.0\zh-Hans\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Users\Dell\OneDrive\Desktop\BACKUP\Sanjay Mail Confirmation\MSU_BARODA\bin\Debug\net8.0\zh-Hant\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Users\Dell\OneDrive\Desktop\BACKUP\Sanjay Mail Confirmation\MSU_BARODA\bin\Debug\net8.0\cs\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Users\Dell\OneDrive\Desktop\BACKUP\Sanjay Mail Confirmation\MSU_BARODA\bin\Debug\net8.0\de\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Users\Dell\OneDrive\Desktop\BACKUP\Sanjay Mail Confirmation\MSU_BARODA\bin\Debug\net8.0\es\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Users\Dell\OneDrive\Desktop\BACKUP\Sanjay Mail Confirmation\MSU_BARODA\bin\Debug\net8.0\fr\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Users\Dell\OneDrive\Desktop\BACKUP\Sanjay Mail Confirmation\MSU_BARODA\bin\Debug\net8.0\it\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Users\Dell\OneDrive\Desktop\BACKUP\Sanjay Mail Confirmation\MSU_BARODA\bin\Debug\net8.0\ja\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Users\Dell\OneDrive\Desktop\BACKUP\Sanjay Mail Confirmation\MSU_BARODA\bin\Debug\net8.0\ko\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Users\Dell\OneDrive\Desktop\BACKUP\Sanjay Mail Confirmation\MSU_BARODA\bin\Debug\net8.0\pl\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Users\Dell\OneDrive\Desktop\BACKUP\Sanjay Mail Confirmation\MSU_BARODA\bin\Debug\net8.0\pt-BR\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Users\Dell\OneDrive\Desktop\BACKUP\Sanjay Mail Confirmation\MSU_BARODA\bin\Debug\net8.0\ru\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Users\Dell\OneDrive\Desktop\BACKUP\Sanjay Mail Confirmation\MSU_BARODA\bin\Debug\net8.0\tr\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Users\Dell\OneDrive\Desktop\BACKUP\Sanjay Mail Confirmation\MSU_BARODA\bin\Debug\net8.0\zh-Hans\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Users\Dell\OneDrive\Desktop\BACKUP\Sanjay Mail Confirmation\MSU_BARODA\bin\Debug\net8.0\zh-Hant\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Users\Dell\OneDrive\Desktop\BACKUP\Sanjay Mail Confirmation\MSU_BARODA\bin\Debug\net8.0\runtimes\win\lib\net8.0\System.Security.Cryptography.Pkcs.dll
+C:\Users\Dell\OneDrive\Desktop\BACKUP\Sanjay Mail Confirmation\MSU_BARODA\obj\Debug\net8.0\MSU_BARODA.csproj.AssemblyReference.cache
+C:\Users\Dell\OneDrive\Desktop\BACKUP\Sanjay Mail Confirmation\MSU_BARODA\obj\Debug\net8.0\MSU_BARODA.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Dell\OneDrive\Desktop\BACKUP\Sanjay Mail Confirmation\MSU_BARODA\obj\Debug\net8.0\MSU_BARODA.AssemblyInfoInputs.cache
+C:\Users\Dell\OneDrive\Desktop\BACKUP\Sanjay Mail Confirmation\MSU_BARODA\obj\Debug\net8.0\MSU_BARODA.AssemblyInfo.cs
+C:\Users\Dell\OneDrive\Desktop\BACKUP\Sanjay Mail Confirmation\MSU_BARODA\obj\Debug\net8.0\MSU_BARODA.csproj.CoreCompileInputs.cache
+C:\Users\Dell\OneDrive\Desktop\BACKUP\Sanjay Mail Confirmation\MSU_BARODA\obj\Debug\net8.0\MSU_BARODA.MvcApplicationPartsAssemblyInfo.cs
+C:\Users\Dell\OneDrive\Desktop\BACKUP\Sanjay Mail Confirmation\MSU_BARODA\obj\Debug\net8.0\MSU_BARODA.MvcApplicationPartsAssemblyInfo.cache
+C:\Users\Dell\OneDrive\Desktop\BACKUP\Sanjay Mail Confirmation\MSU_BARODA\obj\Debug\net8.0\MSU_BARODA.RazorAssemblyInfo.cache
+C:\Users\Dell\OneDrive\Desktop\BACKUP\Sanjay Mail Confirmation\MSU_BARODA\obj\Debug\net8.0\MSU_BARODA.RazorAssemblyInfo.cs
+C:\Users\Dell\OneDrive\Desktop\BACKUP\Sanjay Mail Confirmation\MSU_BARODA\obj\Debug\net8.0\scopedcss\Views\Shared\_Layout.cshtml.rz.scp.css
+C:\Users\Dell\OneDrive\Desktop\BACKUP\Sanjay Mail Confirmation\MSU_BARODA\obj\Debug\net8.0\scopedcss\bundle\MSU_BARODA.styles.css
+C:\Users\Dell\OneDrive\Desktop\BACKUP\Sanjay Mail Confirmation\MSU_BARODA\obj\Debug\net8.0\scopedcss\projectbundle\MSU_BARODA.bundle.scp.css
+C:\Users\Dell\OneDrive\Desktop\BACKUP\Sanjay Mail Confirmation\MSU_BARODA\obj\Debug\net8.0\staticwebassets.build.json
+C:\Users\Dell\OneDrive\Desktop\BACKUP\Sanjay Mail Confirmation\MSU_BARODA\obj\Debug\net8.0\staticwebassets.development.json
+C:\Users\Dell\OneDrive\Desktop\BACKUP\Sanjay Mail Confirmation\MSU_BARODA\obj\Debug\net8.0\staticwebassets.build.endpoints.json
+C:\Users\Dell\OneDrive\Desktop\BACKUP\Sanjay Mail Confirmation\MSU_BARODA\obj\Debug\net8.0\staticwebassets\msbuild.MSU_BARODA.Microsoft.AspNetCore.StaticWebAssets.props
+C:\Users\Dell\OneDrive\Desktop\BACKUP\Sanjay Mail Confirmation\MSU_BARODA\obj\Debug\net8.0\staticwebassets\msbuild.MSU_BARODA.Microsoft.AspNetCore.StaticWebAssetEndpoints.props
+C:\Users\Dell\OneDrive\Desktop\BACKUP\Sanjay Mail Confirmation\MSU_BARODA\obj\Debug\net8.0\staticwebassets\msbuild.build.MSU_BARODA.props
+C:\Users\Dell\OneDrive\Desktop\BACKUP\Sanjay Mail Confirmation\MSU_BARODA\obj\Debug\net8.0\staticwebassets\msbuild.buildMultiTargeting.MSU_BARODA.props
+C:\Users\Dell\OneDrive\Desktop\BACKUP\Sanjay Mail Confirmation\MSU_BARODA\obj\Debug\net8.0\staticwebassets\msbuild.buildTransitive.MSU_BARODA.props
+C:\Users\Dell\OneDrive\Desktop\BACKUP\Sanjay Mail Confirmation\MSU_BARODA\obj\Debug\net8.0\staticwebassets.pack.json
+C:\Users\Dell\OneDrive\Desktop\BACKUP\Sanjay Mail Confirmation\MSU_BARODA\obj\Debug\net8.0\staticwebassets.upToDateCheck.txt
+C:\Users\Dell\OneDrive\Desktop\BACKUP\Sanjay Mail Confirmation\MSU_BARODA\obj\Debug\net8.0\MSU_BARODA.csproj.Up2Date
+C:\Users\Dell\OneDrive\Desktop\BACKUP\Sanjay Mail Confirmation\MSU_BARODA\obj\Debug\net8.0\MSU_BARODA.dll
+C:\Users\Dell\OneDrive\Desktop\BACKUP\Sanjay Mail Confirmation\MSU_BARODA\obj\Debug\net8.0\refint\MSU_BARODA.dll
+C:\Users\Dell\OneDrive\Desktop\BACKUP\Sanjay Mail Confirmation\MSU_BARODA\obj\Debug\net8.0\MSU_BARODA.pdb
+C:\Users\Dell\OneDrive\Desktop\BACKUP\Sanjay Mail Confirmation\MSU_BARODA\obj\Debug\net8.0\MSU_BARODA.genruntimeconfig.cache
+C:\Users\Dell\OneDrive\Desktop\BACKUP\Sanjay Mail Confirmation\MSU_BARODA\obj\Debug\net8.0\ref\MSU_BARODA.dll
+D:\Final year Final Projects\Sanjay Mail Confirmation\MSU_BARODA\bin\Debug\net8.0\appsettings.Development.json
+D:\Final year Final Projects\Sanjay Mail Confirmation\MSU_BARODA\bin\Debug\net8.0\appsettings.json
+D:\Final year Final Projects\Sanjay Mail Confirmation\MSU_BARODA\bin\Debug\net8.0\MSU_BARODA.staticwebassets.runtime.json
+D:\Final year Final Projects\Sanjay Mail Confirmation\MSU_BARODA\bin\Debug\net8.0\MSU_BARODA.staticwebassets.endpoints.json
+D:\Final year Final Projects\Sanjay Mail Confirmation\MSU_BARODA\bin\Debug\net8.0\MSU_BARODA.exe
+D:\Final year Final Projects\Sanjay Mail Confirmation\MSU_BARODA\bin\Debug\net8.0\MSU_BARODA.deps.json
+D:\Final year Final Projects\Sanjay Mail Confirmation\MSU_BARODA\bin\Debug\net8.0\MSU_BARODA.runtimeconfig.json
+D:\Final year Final Projects\Sanjay Mail Confirmation\MSU_BARODA\bin\Debug\net8.0\MSU_BARODA.dll
+D:\Final year Final Projects\Sanjay Mail Confirmation\MSU_BARODA\bin\Debug\net8.0\MSU_BARODA.pdb
+D:\Final year Final Projects\Sanjay Mail Confirmation\MSU_BARODA\bin\Debug\net8.0\BouncyCastle.Cryptography.dll
+D:\Final year Final Projects\Sanjay Mail Confirmation\MSU_BARODA\bin\Debug\net8.0\FluentEmail.Core.dll
+D:\Final year Final Projects\Sanjay Mail Confirmation\MSU_BARODA\bin\Debug\net8.0\FluentEmail.Smtp.dll
+D:\Final year Final Projects\Sanjay Mail Confirmation\MSU_BARODA\bin\Debug\net8.0\Humanizer.dll
+D:\Final year Final Projects\Sanjay Mail Confirmation\MSU_BARODA\bin\Debug\net8.0\MailKit.dll
+D:\Final year Final Projects\Sanjay Mail Confirmation\MSU_BARODA\bin\Debug\net8.0\Microsoft.AspNetCore.Cryptography.Internal.dll
+D:\Final year Final Projects\Sanjay Mail Confirmation\MSU_BARODA\bin\Debug\net8.0\Microsoft.AspNetCore.Cryptography.KeyDerivation.dll
+D:\Final year Final Projects\Sanjay Mail Confirmation\MSU_BARODA\bin\Debug\net8.0\Microsoft.AspNetCore.Identity.EntityFrameworkCore.dll
+D:\Final year Final Projects\Sanjay Mail Confirmation\MSU_BARODA\bin\Debug\net8.0\Microsoft.AspNetCore.Identity.UI.dll
+D:\Final year Final Projects\Sanjay Mail Confirmation\MSU_BARODA\bin\Debug\net8.0\Microsoft.Bcl.AsyncInterfaces.dll
+D:\Final year Final Projects\Sanjay Mail Confirmation\MSU_BARODA\bin\Debug\net8.0\Microsoft.CodeAnalysis.dll
+D:\Final year Final Projects\Sanjay Mail Confirmation\MSU_BARODA\bin\Debug\net8.0\Microsoft.CodeAnalysis.CSharp.dll
+D:\Final year Final Projects\Sanjay Mail Confirmation\MSU_BARODA\bin\Debug\net8.0\Microsoft.CodeAnalysis.CSharp.Workspaces.dll
+D:\Final year Final Projects\Sanjay Mail Confirmation\MSU_BARODA\bin\Debug\net8.0\Microsoft.CodeAnalysis.Workspaces.dll
+D:\Final year Final Projects\Sanjay Mail Confirmation\MSU_BARODA\bin\Debug\net8.0\Microsoft.EntityFrameworkCore.dll
+D:\Final year Final Projects\Sanjay Mail Confirmation\MSU_BARODA\bin\Debug\net8.0\Microsoft.EntityFrameworkCore.Abstractions.dll
+D:\Final year Final Projects\Sanjay Mail Confirmation\MSU_BARODA\bin\Debug\net8.0\Microsoft.EntityFrameworkCore.Design.dll
+D:\Final year Final Projects\Sanjay Mail Confirmation\MSU_BARODA\bin\Debug\net8.0\Microsoft.EntityFrameworkCore.Relational.dll
+D:\Final year Final Projects\Sanjay Mail Confirmation\MSU_BARODA\bin\Debug\net8.0\Microsoft.Extensions.Caching.Memory.dll
+D:\Final year Final Projects\Sanjay Mail Confirmation\MSU_BARODA\bin\Debug\net8.0\Microsoft.Extensions.DependencyInjection.dll
+D:\Final year Final Projects\Sanjay Mail Confirmation\MSU_BARODA\bin\Debug\net8.0\Microsoft.Extensions.DependencyInjection.Abstractions.dll
+D:\Final year Final Projects\Sanjay Mail Confirmation\MSU_BARODA\bin\Debug\net8.0\Microsoft.Extensions.DependencyModel.dll
+D:\Final year Final Projects\Sanjay Mail Confirmation\MSU_BARODA\bin\Debug\net8.0\Microsoft.Extensions.FileProviders.Embedded.dll
+D:\Final year Final Projects\Sanjay Mail Confirmation\MSU_BARODA\bin\Debug\net8.0\Microsoft.Extensions.Identity.Core.dll
+D:\Final year Final Projects\Sanjay Mail Confirmation\MSU_BARODA\bin\Debug\net8.0\Microsoft.Extensions.Identity.Stores.dll
+D:\Final year Final Projects\Sanjay Mail Confirmation\MSU_BARODA\bin\Debug\net8.0\Microsoft.Extensions.Logging.dll
+D:\Final year Final Projects\Sanjay Mail Confirmation\MSU_BARODA\bin\Debug\net8.0\Microsoft.Extensions.Logging.Abstractions.dll
+D:\Final year Final Projects\Sanjay Mail Confirmation\MSU_BARODA\bin\Debug\net8.0\Microsoft.Extensions.Options.dll
+D:\Final year Final Projects\Sanjay Mail Confirmation\MSU_BARODA\bin\Debug\net8.0\MimeKit.dll
+D:\Final year Final Projects\Sanjay Mail Confirmation\MSU_BARODA\bin\Debug\net8.0\Mono.TextTemplating.dll
+D:\Final year Final Projects\Sanjay Mail Confirmation\MSU_BARODA\bin\Debug\net8.0\MySqlConnector.dll
+D:\Final year Final Projects\Sanjay Mail Confirmation\MSU_BARODA\bin\Debug\net8.0\Newtonsoft.Json.dll
+D:\Final year Final Projects\Sanjay Mail Confirmation\MSU_BARODA\bin\Debug\net8.0\Pomelo.EntityFrameworkCore.MySql.dll
+D:\Final year Final Projects\Sanjay Mail Confirmation\MSU_BARODA\bin\Debug\net8.0\System.CodeDom.dll
+D:\Final year Final Projects\Sanjay Mail Confirmation\MSU_BARODA\bin\Debug\net8.0\System.Composition.AttributedModel.dll
+D:\Final year Final Projects\Sanjay Mail Confirmation\MSU_BARODA\bin\Debug\net8.0\System.Composition.Convention.dll
+D:\Final year Final Projects\Sanjay Mail Confirmation\MSU_BARODA\bin\Debug\net8.0\System.Composition.Hosting.dll
+D:\Final year Final Projects\Sanjay Mail Confirmation\MSU_BARODA\bin\Debug\net8.0\System.Composition.Runtime.dll
+D:\Final year Final Projects\Sanjay Mail Confirmation\MSU_BARODA\bin\Debug\net8.0\System.Composition.TypedParts.dll
+D:\Final year Final Projects\Sanjay Mail Confirmation\MSU_BARODA\bin\Debug\net8.0\System.Security.Cryptography.Pkcs.dll
+D:\Final year Final Projects\Sanjay Mail Confirmation\MSU_BARODA\bin\Debug\net8.0\cs\Microsoft.CodeAnalysis.resources.dll
+D:\Final year Final Projects\Sanjay Mail Confirmation\MSU_BARODA\bin\Debug\net8.0\de\Microsoft.CodeAnalysis.resources.dll
+D:\Final year Final Projects\Sanjay Mail Confirmation\MSU_BARODA\bin\Debug\net8.0\es\Microsoft.CodeAnalysis.resources.dll
+D:\Final year Final Projects\Sanjay Mail Confirmation\MSU_BARODA\bin\Debug\net8.0\fr\Microsoft.CodeAnalysis.resources.dll
+D:\Final year Final Projects\Sanjay Mail Confirmation\MSU_BARODA\bin\Debug\net8.0\it\Microsoft.CodeAnalysis.resources.dll
+D:\Final year Final Projects\Sanjay Mail Confirmation\MSU_BARODA\bin\Debug\net8.0\ja\Microsoft.CodeAnalysis.resources.dll
+D:\Final year Final Projects\Sanjay Mail Confirmation\MSU_BARODA\bin\Debug\net8.0\ko\Microsoft.CodeAnalysis.resources.dll
+D:\Final year Final Projects\Sanjay Mail Confirmation\MSU_BARODA\bin\Debug\net8.0\pl\Microsoft.CodeAnalysis.resources.dll
+D:\Final year Final Projects\Sanjay Mail Confirmation\MSU_BARODA\bin\Debug\net8.0\pt-BR\Microsoft.CodeAnalysis.resources.dll
+D:\Final year Final Projects\Sanjay Mail Confirmation\MSU_BARODA\bin\Debug\net8.0\ru\Microsoft.CodeAnalysis.resources.dll
+D:\Final year Final Projects\Sanjay Mail Confirmation\MSU_BARODA\bin\Debug\net8.0\tr\Microsoft.CodeAnalysis.resources.dll
+D:\Final year Final Projects\Sanjay Mail Confirmation\MSU_BARODA\bin\Debug\net8.0\zh-Hans\Microsoft.CodeAnalysis.resources.dll
+D:\Final year Final Projects\Sanjay Mail Confirmation\MSU_BARODA\bin\Debug\net8.0\zh-Hant\Microsoft.CodeAnalysis.resources.dll
+D:\Final year Final Projects\Sanjay Mail Confirmation\MSU_BARODA\bin\Debug\net8.0\cs\Microsoft.CodeAnalysis.CSharp.resources.dll
+D:\Final year Final Projects\Sanjay Mail Confirmation\MSU_BARODA\bin\Debug\net8.0\de\Microsoft.CodeAnalysis.CSharp.resources.dll
+D:\Final year Final Projects\Sanjay Mail Confirmation\MSU_BARODA\bin\Debug\net8.0\es\Microsoft.CodeAnalysis.CSharp.resources.dll
+D:\Final year Final Projects\Sanjay Mail Confirmation\MSU_BARODA\bin\Debug\net8.0\fr\Microsoft.CodeAnalysis.CSharp.resources.dll
+D:\Final year Final Projects\Sanjay Mail Confirmation\MSU_BARODA\bin\Debug\net8.0\it\Microsoft.CodeAnalysis.CSharp.resources.dll
+D:\Final year Final Projects\Sanjay Mail Confirmation\MSU_BARODA\bin\Debug\net8.0\ja\Microsoft.CodeAnalysis.CSharp.resources.dll
+D:\Final year Final Projects\Sanjay Mail Confirmation\MSU_BARODA\bin\Debug\net8.0\ko\Microsoft.CodeAnalysis.CSharp.resources.dll
+D:\Final year Final Projects\Sanjay Mail Confirmation\MSU_BARODA\bin\Debug\net8.0\pl\Microsoft.CodeAnalysis.CSharp.resources.dll
+D:\Final year Final Projects\Sanjay Mail Confirmation\MSU_BARODA\bin\Debug\net8.0\pt-BR\Microsoft.CodeAnalysis.CSharp.resources.dll
+D:\Final year Final Projects\Sanjay Mail Confirmation\MSU_BARODA\bin\Debug\net8.0\ru\Microsoft.CodeAnalysis.CSharp.resources.dll
+D:\Final year Final Projects\Sanjay Mail Confirmation\MSU_BARODA\bin\Debug\net8.0\tr\Microsoft.CodeAnalysis.CSharp.resources.dll
+D:\Final year Final Projects\Sanjay Mail Confirmation\MSU_BARODA\bin\Debug\net8.0\zh-Hans\Microsoft.CodeAnalysis.CSharp.resources.dll
+D:\Final year Final Projects\Sanjay Mail Confirmation\MSU_BARODA\bin\Debug\net8.0\zh-Hant\Microsoft.CodeAnalysis.CSharp.resources.dll
+D:\Final year Final Projects\Sanjay Mail Confirmation\MSU_BARODA\bin\Debug\net8.0\cs\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+D:\Final year Final Projects\Sanjay Mail Confirmation\MSU_BARODA\bin\Debug\net8.0\de\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+D:\Final year Final Projects\Sanjay Mail Confirmation\MSU_BARODA\bin\Debug\net8.0\es\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+D:\Final year Final Projects\Sanjay Mail Confirmation\MSU_BARODA\bin\Debug\net8.0\fr\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+D:\Final year Final Projects\Sanjay Mail Confirmation\MSU_BARODA\bin\Debug\net8.0\it\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+D:\Final year Final Projects\Sanjay Mail Confirmation\MSU_BARODA\bin\Debug\net8.0\ja\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+D:\Final year Final Projects\Sanjay Mail Confirmation\MSU_BARODA\bin\Debug\net8.0\ko\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+D:\Final year Final Projects\Sanjay Mail Confirmation\MSU_BARODA\bin\Debug\net8.0\pl\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+D:\Final year Final Projects\Sanjay Mail Confirmation\MSU_BARODA\bin\Debug\net8.0\pt-BR\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+D:\Final year Final Projects\Sanjay Mail Confirmation\MSU_BARODA\bin\Debug\net8.0\ru\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+D:\Final year Final Projects\Sanjay Mail Confirmation\MSU_BARODA\bin\Debug\net8.0\tr\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+D:\Final year Final Projects\Sanjay Mail Confirmation\MSU_BARODA\bin\Debug\net8.0\zh-Hans\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+D:\Final year Final Projects\Sanjay Mail Confirmation\MSU_BARODA\bin\Debug\net8.0\zh-Hant\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+D:\Final year Final Projects\Sanjay Mail Confirmation\MSU_BARODA\bin\Debug\net8.0\cs\Microsoft.CodeAnalysis.Workspaces.resources.dll
+D:\Final year Final Projects\Sanjay Mail Confirmation\MSU_BARODA\bin\Debug\net8.0\de\Microsoft.CodeAnalysis.Workspaces.resources.dll
+D:\Final year Final Projects\Sanjay Mail Confirmation\MSU_BARODA\bin\Debug\net8.0\es\Microsoft.CodeAnalysis.Workspaces.resources.dll
+D:\Final year Final Projects\Sanjay Mail Confirmation\MSU_BARODA\bin\Debug\net8.0\fr\Microsoft.CodeAnalysis.Workspaces.resources.dll
+D:\Final year Final Projects\Sanjay Mail Confirmation\MSU_BARODA\bin\Debug\net8.0\it\Microsoft.CodeAnalysis.Workspaces.resources.dll
+D:\Final year Final Projects\Sanjay Mail Confirmation\MSU_BARODA\bin\Debug\net8.0\ja\Microsoft.CodeAnalysis.Workspaces.resources.dll
+D:\Final year Final Projects\Sanjay Mail Confirmation\MSU_BARODA\bin\Debug\net8.0\ko\Microsoft.CodeAnalysis.Workspaces.resources.dll
+D:\Final year Final Projects\Sanjay Mail Confirmation\MSU_BARODA\bin\Debug\net8.0\pl\Microsoft.CodeAnalysis.Workspaces.resources.dll
+D:\Final year Final Projects\Sanjay Mail Confirmation\MSU_BARODA\bin\Debug\net8.0\pt-BR\Microsoft.CodeAnalysis.Workspaces.resources.dll
+D:\Final year Final Projects\Sanjay Mail Confirmation\MSU_BARODA\bin\Debug\net8.0\ru\Microsoft.CodeAnalysis.Workspaces.resources.dll
+D:\Final year Final Projects\Sanjay Mail Confirmation\MSU_BARODA\bin\Debug\net8.0\tr\Microsoft.CodeAnalysis.Workspaces.resources.dll
+D:\Final year Final Projects\Sanjay Mail Confirmation\MSU_BARODA\bin\Debug\net8.0\zh-Hans\Microsoft.CodeAnalysis.Workspaces.resources.dll
+D:\Final year Final Projects\Sanjay Mail Confirmation\MSU_BARODA\bin\Debug\net8.0\zh-Hant\Microsoft.CodeAnalysis.Workspaces.resources.dll
+D:\Final year Final Projects\Sanjay Mail Confirmation\MSU_BARODA\bin\Debug\net8.0\runtimes\win\lib\net8.0\System.Security.Cryptography.Pkcs.dll
+D:\Final year Final Projects\Sanjay Mail Confirmation\MSU_BARODA\obj\Debug\net8.0\MSU_BARODA.csproj.AssemblyReference.cache
+D:\Final year Final Projects\Sanjay Mail Confirmation\MSU_BARODA\obj\Debug\net8.0\MSU_BARODA.GeneratedMSBuildEditorConfig.editorconfig
+D:\Final year Final Projects\Sanjay Mail Confirmation\MSU_BARODA\obj\Debug\net8.0\MSU_BARODA.AssemblyInfoInputs.cache
+D:\Final year Final Projects\Sanjay Mail Confirmation\MSU_BARODA\obj\Debug\net8.0\MSU_BARODA.AssemblyInfo.cs
+D:\Final year Final Projects\Sanjay Mail Confirmation\MSU_BARODA\obj\Debug\net8.0\MSU_BARODA.csproj.CoreCompileInputs.cache
+D:\Final year Final Projects\Sanjay Mail Confirmation\MSU_BARODA\obj\Debug\net8.0\MSU_BARODA.MvcApplicationPartsAssemblyInfo.cs
+D:\Final year Final Projects\Sanjay Mail Confirmation\MSU_BARODA\obj\Debug\net8.0\MSU_BARODA.MvcApplicationPartsAssemblyInfo.cache
+D:\Final year Final Projects\Sanjay Mail Confirmation\MSU_BARODA\obj\Debug\net8.0\MSU_BARODA.RazorAssemblyInfo.cache
+D:\Final year Final Projects\Sanjay Mail Confirmation\MSU_BARODA\obj\Debug\net8.0\MSU_BARODA.RazorAssemblyInfo.cs
+D:\Final year Final Projects\Sanjay Mail Confirmation\MSU_BARODA\obj\Debug\net8.0\scopedcss\Views\Shared\_Layout.cshtml.rz.scp.css
+D:\Final year Final Projects\Sanjay Mail Confirmation\MSU_BARODA\obj\Debug\net8.0\scopedcss\bundle\MSU_BARODA.styles.css
+D:\Final year Final Projects\Sanjay Mail Confirmation\MSU_BARODA\obj\Debug\net8.0\scopedcss\projectbundle\MSU_BARODA.bundle.scp.css
+D:\Final year Final Projects\Sanjay Mail Confirmation\MSU_BARODA\obj\Debug\net8.0\staticwebassets.build.json
+D:\Final year Final Projects\Sanjay Mail Confirmation\MSU_BARODA\obj\Debug\net8.0\staticwebassets.development.json
+D:\Final year Final Projects\Sanjay Mail Confirmation\MSU_BARODA\obj\Debug\net8.0\staticwebassets.build.endpoints.json
+D:\Final year Final Projects\Sanjay Mail Confirmation\MSU_BARODA\obj\Debug\net8.0\staticwebassets\msbuild.MSU_BARODA.Microsoft.AspNetCore.StaticWebAssets.props
+D:\Final year Final Projects\Sanjay Mail Confirmation\MSU_BARODA\obj\Debug\net8.0\staticwebassets\msbuild.MSU_BARODA.Microsoft.AspNetCore.StaticWebAssetEndpoints.props
+D:\Final year Final Projects\Sanjay Mail Confirmation\MSU_BARODA\obj\Debug\net8.0\staticwebassets\msbuild.build.MSU_BARODA.props
+D:\Final year Final Projects\Sanjay Mail Confirmation\MSU_BARODA\obj\Debug\net8.0\staticwebassets\msbuild.buildMultiTargeting.MSU_BARODA.props
+D:\Final year Final Projects\Sanjay Mail Confirmation\MSU_BARODA\obj\Debug\net8.0\staticwebassets\msbuild.buildTransitive.MSU_BARODA.props
+D:\Final year Final Projects\Sanjay Mail Confirmation\MSU_BARODA\obj\Debug\net8.0\staticwebassets.pack.json
+D:\Final year Final Projects\Sanjay Mail Confirmation\MSU_BARODA\obj\Debug\net8.0\staticwebassets.upToDateCheck.txt
+D:\Final year Final Projects\Sanjay Mail Confirmation\MSU_BARODA\obj\Debug\net8.0\MSU_BARODA.csproj.Up2Date
+D:\Final year Final Projects\Sanjay Mail Confirmation\MSU_BARODA\obj\Debug\net8.0\MSU_BARODA.dll
+D:\Final year Final Projects\Sanjay Mail Confirmation\MSU_BARODA\obj\Debug\net8.0\refint\MSU_BARODA.dll
+D:\Final year Final Projects\Sanjay Mail Confirmation\MSU_BARODA\obj\Debug\net8.0\MSU_BARODA.pdb
+D:\Final year Final Projects\Sanjay Mail Confirmation\MSU_BARODA\obj\Debug\net8.0\MSU_BARODA.genruntimeconfig.cache
+D:\Final year Final Projects\Sanjay Mail Confirmation\MSU_BARODA\obj\Debug\net8.0\ref\MSU_BARODA.dll

@@ -1,0 +1,127 @@
+﻿@{
+    ViewData["Title"] = "Send Email";
+}
+
+<h2>Send Email</h2>
+
+@if (ViewBag.Error != null)
+{
+    <div class="alert alert-danger">@ViewBag.Error</div>
+}
+
+@if (ViewBag.Message != null)
+{
+    <div class="alert alert-success">@ViewBag.Message</div>
+}
+
+<form method="post" asp-action="SendEmail" enctype="multipart/form-data">
+    @Html.AntiForgeryToken()
+
+    <!-- Faculty Dropdown -->
+    <div class="form-group">
+        <label for="faculty">Faculty</label>
+        <select id="faculty" name="faculty" class="form-control" required onchange="updateDepartments()">
+            <option value="">-- Select Faculty --</option>
+            @foreach (var faculty in ViewBag.Faculties)
+            {
+                <option value="@faculty">@faculty</option>
+            }
+        </select>
+    </div>
+
+    <!-- Department Dropdown -->
+    <div class="form-group">
+        <label for="department">Department</label>
+        <select id="department" name="department" class="form-control" onchange="updateCourses()">
+            <option value="">-- Select Department --</option>
+        </select>
+    </div>
+
+    <!-- Course Dropdown -->
+    <div class="form-group">
+        <label for="course">Course</label>
+        <select id="course" name="course" class="form-control">
+            <option value="">-- Select Course --</option>
+        </select>
+    </div>
+
+    <!-- Email Body -->
+    <div class="form-group">
+        <label for="body">Email Body</label>
+        <textarea id="body" name="body" class="form-control" required></textarea>
+    </div>
+
+    <!-- Attachment Upload -->
+    <div class="form-group">
+        <label for="attachment">Attachment (PDF only)</label>
+        <input type="file" id="attachment" name="attachment" class="form-control" accept="application/pdf" />
+    </div>
+
+    <!-- Submit Button -->
+    <button type="submit" class="btn btn-success">Send Email</button>
+</form>
+
+<script>
+    const data = {
+        "Engineering": {
+            "CSE": ["Master of Computer Applications (MCA)", "Bachelor of Engineering (D to D students)", "Bachelor of Engineering (Regular Students)"],
+            "Electrical": ["Bachelor of Engineering (D to D students)", "Bachelor of Engineering (Regular Students)", "Master of Engineering"],
+            "Civil": ["Bachelor of Engineering (D to D students)", "Bachelor of Engineering (Regular Students)"],
+            "Chemical": ["Bachelor of Engineering (D to D students)", "Bachelor of Engineering (Regular Students)"]
+        },
+        "Science": {
+            "Bio-Chemistry": ["B.Sc.", "M.Sc.", "M.Sc. in Bio-Chemistry"],
+            "Botany": ["B.Sc.", "M.Sc."],
+            "Chemistry": ["B.Sc.", "M.Sc."],
+            "Environmental Science": ["B.Sc.", "M.Sc."],
+            "Mathematics": ["B.Sc.", "M.Sc."],
+            "Physics": ["B.Sc.", "M.Sc."],
+            "Computer Applications": ["BCA (HPP)"],
+            "Medical Biotechnology": ["M.Sc. in Medical Biotechnology (HPP)"],
+            "Others": ["M.Phil.", "Ph.D."]
+        },
+        "Arts": {
+            "Department of English": ["Bachelor of Arts (BA)", "Master of Arts (MA)"],
+            "Department of Sindhi": ["Bachelor of Arts (BA)", "Master of Arts (MA)"],
+            "Department of Hindi": ["Bachelor of Arts (BA)", "Master of Arts (MA)"],
+            "Department of Gujarati": ["Bachelor of Arts (BA)", "Master of Arts (MA)"]
+        },
+        "Commerce": {
+            "Banking and Insurance": ["Under Graduate", "Post Graduate"],
+            "Commerce": ["Bachelor of Commerce", "Master of Commerce"]
+        }
+    };
+
+    function updateDepartments() {
+        const faculty = document.getElementById("faculty").value;
+        const departmentSelect = document.getElementById("department");
+        const courseSelect = document.getElementById("course");
+        departmentSelect.innerHTML = '<option value="">-- Select Department --</option>';
+        courseSelect.innerHTML = '<option value="">-- Select Course --</option>';
+
+        if (faculty && data[faculty]) {
+            Object.keys(data[faculty]).forEach(dep => {
+                const option = document.createElement("option");
+                option.value = dep;
+                option.text = dep;
+                departmentSelect.appendChild(option);
+            });
+        }
+    }
+
+    function updateCourses() {
+        const faculty = document.getElementById("faculty").value;
+        const department = document.getElementById("department").value;
+        const courseSelect = document.getElementById("course");
+        courseSelect.innerHTML = '<option value="">-- Select Course --</option>';
+
+        if (faculty && department && data[faculty][department]) {
+            data[faculty][department].forEach(course => {
+                const option = document.createElement("option");
+                option.value = course;
+                option.text = course;
+                courseSelect.appendChild(option);
+            });
+        }
+    }
+</script>

@@ -1,0 +1,115 @@
+﻿@model List<MSU_BARODA.Models.Student>
+
+@{
+    ViewData["Title"] = "Manage Users";
+}
+
+<h2 class="text-center text-primary mb-4 fw-bold">👥 Manage Users</h2>
+
+<!-- 🔍 Search Box -->
+<div class="mb-4">
+    <input type="text" id="searchBox" class="form-control form-control-lg" placeholder="🔍 Search by Name or PRN..." />
+</div>
+
+<!-- 🧩 Filter Dropdowns -->
+<div class="row mb-4 g-3">
+    <div class="col-md-4">
+        <label for="facultyFilter" class="form-label">Faculty:</label>
+        <select id="facultyFilter" class="form-select" onchange="filterTable()">
+            <option value="">-- Select Faculty --</option>
+            @foreach (var faculty in ViewBag.Faculties)
+            {
+                <option value="@faculty">@faculty</option>
+            }
+        </select>
+    </div>
+
+    <div class="col-md-4">
+        <label for="departmentFilter" class="form-label">Department:</label>
+        <select id="departmentFilter" class="form-select" onchange="filterTable()">
+            <option value="">-- Select Department --</option>
+            @foreach (var dept in ViewBag.Departments)
+            {
+                <option value="@dept">@dept</option>
+            }
+        </select>
+    </div>
+
+    <div class="col-md-4">
+        <label for="courseFilter" class="form-label">Course:</label>
+        <select id="courseFilter" class="form-select" onchange="filterTable()">
+            <option value="">-- Select Course --</option>
+            @foreach (var course in ViewBag.Courses)
+            {
+                <option value="@course">@course</option>
+            }
+        </select>
+    </div>
+</div>
+
+<!-- 📋 Users Table -->
+<div class="table-responsive">
+    <table class="table table-bordered table-striped table-hover" id="usersTable">
+        <thead class="table-dark text-center">
+            <tr>
+                <th>PRN</th>
+                <th>Name</th>
+                <th>Email</th>
+                <th>Contact No</th>
+                <th>Faculty</th>
+                <th>Department</th>
+                <th>Course</th>
+                <th>Actions</th>
+            </tr>
+        </thead>
+        <tbody>
+            @foreach (var student in Model)
+            {
+                <tr>
+                    <td>@student.PRN</td>
+                    <td>@student.FullName</td>
+                    <td>@student.Email</td>
+                    <td>@student.ContactNo</td>
+                    <td>@student.Faculty</td>
+                    <td>@student.Department</td>
+                    <td>@student.Course</td>
+                    <td class="text-center">
+                        <a href="@Url.Action("EditUser", "Admin", new { id = student.PRN })" class="btn btn-sm btn-warning me-1">✏️ Edit</a>
+                        <a href="@Url.Action("DeleteUser", "Admin", new { id = student.PRN })" class="btn btn-sm btn-danger" onclick="return confirm('Are you sure you want to delete this user?');">🗑️ Delete</a>
+                    </td>
+                </tr>
+            }
+        </tbody>
+    </table>
+</div>
+
+@section Scripts {
+    <script>
+        function filterTable() {
+            let searchValue = document.getElementById("searchBox").value.toLowerCase();
+            let facultyValue = document.getElementById("facultyFilter").value;
+            let departmentValue = document.getElementById("departmentFilter").value;
+            let courseValue = document.getElementById("courseFilter").value;
+
+            let rows = document.querySelectorAll("#usersTable tbody tr");
+
+            rows.forEach(row => {
+                let prn = row.cells[0].textContent.toLowerCase();
+                let name = row.cells[1].textContent.toLowerCase();
+                let faculty = row.cells[4].textContent.toLowerCase();
+                let department = row.cells[5].textContent.toLowerCase();
+                let course = row.cells[6].textContent.toLowerCase();
+
+                // Filter logic based on all criteria
+                let isVisible = (
+                    (prn.includes(searchValue) || name.includes(searchValue)) &&
+                    (faculty.includes(facultyValue.toLowerCase()) || !facultyValue) &&
+                    (department.includes(departmentValue.toLowerCase()) || !departmentValue) &&
+                    (course.includes(courseValue.toLowerCase()) || !courseValue)
+                );
+
+                row.style.display = isVisible ? "" : "none";
+            });
+        }
+    </script>
+}

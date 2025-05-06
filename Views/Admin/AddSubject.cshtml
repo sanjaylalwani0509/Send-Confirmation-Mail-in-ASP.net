@@ -1,0 +1,71 @@
+﻿@model MSU_BARODA.Models.Subject
+@{
+    ViewData["Title"] = "Add Subject";
+}
+
+<h2>Add Subject</h2>
+
+<form asp-action="AddSubject" method="post">
+    <div class="form-group">
+        <label>Faculty</label>
+        <select id="facultySelect" name="Faculty" class="form-control" required></select>
+    </div>
+
+    <div class="form-group">
+        <label>Department</label>
+        <select id="departmentSelect" name="Department" class="form-control" required></select>
+    </div>
+
+    <div class="form-group">
+        <label>Course</label>
+        <select id="courseSelect" name="Course" class="form-control" required></select>
+    </div>
+
+    <div class="form-group">
+        <label>Subject Name</label>
+        <input type="text" name="SubjectName" class="form-control" required />
+    </div>
+
+    <button type="submit" class="btn btn-primary">Add Subject</button>
+    <a asp-action="ManageSubjects" class="btn btn-secondary">Cancel</a>
+</form>
+
+@section Scripts {
+    <script>
+        const faculties = @Html.Raw(System.Text.Json.JsonSerializer.Serialize(MSU_BARODA.Helpers.StaticData.Faculties));
+
+        const facultySelect = document.getElementById("facultySelect");
+        const departmentSelect = document.getElementById("departmentSelect");
+        const courseSelect = document.getElementById("courseSelect");
+
+        for (const faculty in faculties) {
+            facultySelect.innerHTML += `<option value="${faculty}">${faculty}</option>`;
+        }
+
+        facultySelect.addEventListener("change", () => {
+            const selectedFaculty = facultySelect.value;
+            departmentSelect.innerHTML = '<option value="">-- Select Department --</option>';
+            courseSelect.innerHTML = '<option value="">-- Select Course --</option>';
+
+            if (selectedFaculty && faculties[selectedFaculty]) {
+                const departments = Object.keys(faculties[selectedFaculty]);
+                departments.forEach(d => {
+                    departmentSelect.innerHTML += `<option value="${d}">${d}</option>`;
+                });
+            }
+        });
+
+        departmentSelect.addEventListener("change", () => {
+            const selectedFaculty = facultySelect.value;
+            const selectedDepartment = departmentSelect.value;
+
+            courseSelect.innerHTML = '<option value="">-- Select Course --</option>';
+
+            if (faculties[selectedFaculty] && faculties[selectedFaculty][selectedDepartment]) {
+                faculties[selectedFaculty][selectedDepartment].forEach(course => {
+                    courseSelect.innerHTML += `<option value="${course}">${course}</option>`;
+                });
+            }
+        });
+    </script>
+}

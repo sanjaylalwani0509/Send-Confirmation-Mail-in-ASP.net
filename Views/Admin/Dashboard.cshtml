@@ -1,0 +1,32 @@
+﻿@{
+    ViewData["Title"] = "Admin Dashboard";
+}
+
+<div class="container mt-5">
+    <div class="card shadow-lg p-5 rounded-4">
+        <h2 class="text-center mb-4 text-primary fw-bold">🎓 Admin Dashboard</h2>
+
+        <div class="d-flex justify-content-center flex-wrap gap-3">
+            <a asp-controller="Admin" asp-action="SendEmail" class="btn btn-primary btn-lg px-4 py-2">
+                📩 Send Email
+            </a>
+
+            <a asp-controller="Admin" asp-action="ManageUsers" class="btn btn-warning btn-lg px-4 py-2">
+                👥 Manage Students
+            </a>
+
+            <a asp-controller="Admin" asp-action="ViewAllSubmissions" class="btn btn-info btn-lg px-4 py-2">
+                📂 View Submissions
+            </a>
+
+            <a asp-controller="Admin" asp-action="ManageSubjects" class="btn btn-warning btn-lg px-4 py-2">
+                📘 Manage Subjects
+            </a>
+
+
+            <a asp-controller="Admin" asp-action="AdminLogout" class="btn btn-danger btn-lg px-4 py-2">
+                🚪 Logout
+            </a>
+        </div>
+    </div>
+</div>
